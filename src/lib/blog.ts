@@ -507,3 +507,20 @@ export function getPostsByTag(tag: string): BlogPost[] {
 export function getAllSlugs(): string[] {
   return posts.map((p) => p.slug);
 }
+
+export const POSTS_PER_PAGE = 20;
+
+export function getPaginatedPosts(page: number): {
+  posts: BlogPost[];
+  totalPages: number;
+  currentPage: number;
+} {
+  const allPosts = getAllPosts();
+  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+  const start = (page - 1) * POSTS_PER_PAGE;
+  return {
+    posts: allPosts.slice(start, start + POSTS_PER_PAGE),
+    totalPages,
+    currentPage: page,
+  };
+}
