@@ -88,8 +88,8 @@ export default function Hero() {
           </div>
           {/* Floating badge */}
           <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg p-4 border border-border">
-            <p className="font-display text-3xl font-bold text-primary">500+</p>
-            <p className="text-sm text-muted">學員見證</p>
+            <p className="font-display text-2xl font-bold text-primary">ACE-CPT</p>
+            <p className="text-sm text-muted">認證教練</p>
           </div>
         </motion.div>
       </div>
