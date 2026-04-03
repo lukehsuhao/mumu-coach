@@ -21,7 +21,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-primary font-semibold text-lg mb-4"
+            className="text-primary font-semibold text-sm md:text-lg mb-4"
           >
             PERSONAL TRAINING
           </motion.p>
@@ -30,7 +30,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="font-display text-5xl md:text-7xl font-bold leading-tight tracking-wide text-foreground"
+            className="font-display text-3xl md:text-7xl font-bold leading-tight tracking-wide text-foreground"
           >
             用科學訓練
             <br />
@@ -43,7 +43,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="mt-6 text-lg text-muted leading-relaxed max-w-md"
+            className="mt-4 md:mt-6 text-sm md:text-lg text-muted leading-relaxed max-w-md"
           >
             專業 · 溫暖 · 為你量身打造的健身旅程
             <br />
@@ -74,7 +74,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="relative hidden md:block"
+          className="relative"
         >
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <Image

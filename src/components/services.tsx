@@ -57,7 +57,7 @@ export default function Services() {
           className="text-center mb-16"
         >
           <p className="text-primary font-semibold mb-2">SERVICES</p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-wide">
+          <h2 className="font-display text-2xl md:text-5xl font-bold tracking-wide">
             服務項目
           </h2>
           <p className="mt-4 text-muted max-w-lg mx-auto">

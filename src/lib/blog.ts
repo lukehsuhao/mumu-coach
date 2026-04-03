@@ -1,4 +1,8 @@
 import { newPosts } from "./blog-new-posts";
+import { batchA } from "./blog-batch2-a";
+import { batchB } from "./blog-batch2-b";
+import { batchC } from "./blog-batch2-c";
+import { batchD } from "./blog-batch2-d";
 
 export interface BlogCta {
   headline: string;
@@ -23,6 +27,10 @@ export interface BlogPost {
 // Sample posts — replace with real content later
 const posts: BlogPost[] = [
   ...newPosts,
+  ...batchA,
+  ...batchB,
+  ...batchC,
+  ...batchD,
   {
     slug: "beginner-workout-guide",
     title: "健身新手必看：入門訓練完整指南",

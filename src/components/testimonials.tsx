@@ -60,7 +60,7 @@ export default function Testimonials() {
           className="text-center mb-16"
         >
           <p className="text-secondary font-semibold mb-2">TESTIMONIALS</p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-wide">
+          <h2 className="font-display text-2xl md:text-5xl font-bold tracking-wide">
             學員見證
           </h2>
           <p className="mt-4 text-white/60 max-w-lg mx-auto">

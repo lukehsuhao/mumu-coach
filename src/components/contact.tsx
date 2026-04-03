@@ -15,7 +15,7 @@ export default function Contact() {
           transition={{ duration: 0.4 }}
         >
           <p className="text-primary font-semibold mb-2">CONTACT</p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-wide">
+          <h2 className="font-display text-2xl md:text-5xl font-bold tracking-wide">
             開始你的健身旅程
           </h2>
           <p className="mt-4 text-muted max-w-lg mx-auto text-lg leading-relaxed">
@@ -43,6 +43,9 @@ export default function Contact() {
 
           <p className="mt-4 text-sm text-muted">
             點擊上方按鈕，加入牧牧教練 LINE 官方帳號
+          </p>
+          <p className="mt-3 text-sm text-foreground/70">
+            📍 台北市松山區南京東路四段130號 B1・Fitness Hub
           </p>
         </motion.div>
 

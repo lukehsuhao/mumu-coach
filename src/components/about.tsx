@@ -34,7 +34,7 @@ export default function About() {
           transition={{ duration: 0.5 }}
         >
           <p className="text-primary font-semibold mb-2">ABOUT</p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-wide mb-6">
+          <h2 className="font-display text-3xl md:text-5xl font-bold tracking-wide mb-6">
             關於牧牧教練
           </h2>
           <div className="space-y-4 text-muted leading-relaxed">
@@ -46,6 +46,10 @@ export default function About() {
             </p>
             <p>
               無論你是想增肌減脂、改善體態，還是在孕期保持健康，我都會陪你一步步達成目標。教學風格溫暖但扎實，注重動作品質與安全。
+            </p>
+            <p className="flex items-start gap-2 text-foreground/90 font-medium">
+              <span className="text-primary mt-0.5">📍</span>
+              <span>台北市松山區南京東路四段130號 B1・Fitness Hub</span>
             </p>
           </div>
 
@@ -69,19 +73,19 @@ export default function About() {
               </ul>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-4">
               {/* 經歷 */}
               <div className="p-5 rounded-xl bg-card border border-border">
                 <div className="flex items-center gap-2 mb-3">
                   <Trophy size={20} className="text-primary" />
                   <h3 className="font-display font-bold text-lg">經歷</h3>
                 </div>
-                <ul className="space-y-1.5 text-sm text-muted">
+                <ul className="space-y-1.5 text-xs md:text-sm text-muted">
                   <li>雙北自由教練</li>
                   <li>World Gym 私人教練</li>
-                  <li>健生活 Living Fitness 個人 / 團課教練</li>
-                  <li>109 年台北市中正盃舉重錦標賽 61kg</li>
-                  <li>110 年台北市青年盃舉重錦標賽 61kg 第四名</li>
+                  <li>健生活 Living Fitness 個人／團課教練</li>
+                  <li>109年 台北市中正盃舉重錦標賽 61kg</li>
+                  <li>110年 台北市青年盃舉重錦標賽 61kg 第四名</li>
                 </ul>
               </div>
 
@@ -91,7 +95,7 @@ export default function About() {
                   <Dumbbell size={20} className="text-primary" />
                   <h3 className="font-display font-bold text-lg">專長</h3>
                 </div>
-                <ul className="space-y-1.5 text-sm text-muted">
+                <ul className="space-y-1.5 text-xs md:text-sm text-muted">
                   <li>重量訓練</li>
                   <li>健力週期化訓練</li>
                   <li>舉重專項訓練</li>

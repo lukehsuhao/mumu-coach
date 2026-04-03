@@ -51,7 +51,7 @@ body {
   border-radius: 9999px;
   padding: 0.5rem 0.5rem 0.5rem 1.75rem;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 0.95rem;
   color: var(--cta-color, var(--primary));
   background: transparent;
   cursor: pointer;
@@ -110,4 +110,11 @@ body {
 .cta-expand .cta-label {
   position: relative;
   z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .cta-expand {
+    font-size: 1.125rem;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+  }
 }

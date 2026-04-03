@@ -36,6 +36,7 @@ export default function BlogCtaSection({ cta }: { cta: BlogCta }) {
         <div className="text-center">
           <p className="font-display font-bold text-lg">牧牧教練</p>
           <p className="text-sm text-muted">ACE-CPT 認證教練</p>
+          <p className="text-xs text-muted/70 mt-0.5">📍 台北松山・Fitness Hub</p>
         </div>
       </div>
 
