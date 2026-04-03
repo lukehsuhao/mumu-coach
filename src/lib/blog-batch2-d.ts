@@ -22,6 +22,7 @@ export const batchD: BlogPost[] = [
       { id: "return-to-squat-plan", text: "漸進回歸深蹲的訓練計畫", level: 2 },
       { id: "daily-knee-care", text: "日常護膝習慣", level: 2 },
       { id: "knee-faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "膝蓋問題讓你不敢練腿？",
@@ -169,6 +170,13 @@ export const batchD: BlogPost[] = [
       <p>目前的研究結果很分歧。有些研究顯示對輕微關節不適有幫助，有些則認為跟安慰劑差不多。與其花錢買保健品，不如把時間投資在訓練上，效果更確定。</p>
 
       <p>膝蓋痛是身體給你的回饋，不是宣判你不能再訓練。找出原因、修正動作、強化弱點，大部分人都能重新好好享受深蹲這個動作。如果你不確定自己的問題出在哪，找一個懂訓練的教練幫你評估，會比自己亂猜有效率得多。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？教練的正確姿勢完整教學</a></li>
+        <li><a href="/blog/sports-massage-myofascial-release-guide">運動按摩是什麼？筋膜放鬆完整指南</a></li>
+        <li><a href="/blog/shoulder-pain-corrective-exercise-guide">肩膀痛還能練嗎？</a></li>
+      </ul>
     `,
   },
   {
@@ -192,6 +200,7 @@ export const batchD: BlogPost[] = [
       { id: "cross-training-plan", text: "健身房 + 岩場的交叉訓練計畫", level: 2 },
       { id: "injury-prevention", text: "攀岩常見傷害與預防", level: 2 },
       { id: "bouldering-faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想嘗試攀岩但不知道從哪開始？",
@@ -345,6 +354,13 @@ export const batchD: BlogPost[] = [
       <p>因人而異，但有健身底子的人通常進步比較快。認真練的話，3-6 個月爬到 V3 是很合理的目標。不過別太執著等級，享受過程最重要。</p>
 
       <p>攀岩跟健身最大的不同是——每條路線都是不一樣的挑戰，你永遠不會無聊。如果你一直在尋找能讓訓練重新變得興奮的東西，認真考慮去抱石場試試看吧。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
+        <li><a href="/blog/explosive-power-training-guide">爆發力訓練完整指南</a></li>
+        <li><a href="/blog/fitness-motivation-habit-science">健身沒動力怎麼辦？</a></li>
+      </ul>
     `,
   },
   {
@@ -371,6 +387,7 @@ export const batchD: BlogPost[] = [
       { id: "identity-shift", text: "策略七：身份轉換", level: 3 },
       { id: "when-you-still-dont-want-to", text: "就是不想動的那天怎麼辦？", level: 2 },
       { id: "motivation-faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "知道方法但執行不了？",
@@ -525,6 +542,13 @@ export const batchD: BlogPost[] = [
       <p>社群媒體上的健身內容 90% 都是精心挑選過的。那些大神也有偷懶的日子，只是不會發出來。你只需要跟昨天的自己比。打開你的訓練紀錄，看看你三個月前的數據，那才是真正的比較對象。</p>
 
       <p>持續運動最困難的部分不是找到「完美的訓練方式」，而是在不完美的日子裡依然出現。用對策略、建立系統、對自己寬容一點。習慣一旦跑起來，你會發現不動反而比去動更不舒服。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/personal-trainer-vs-self-training">新手該請教練嗎？</a></li>
+        <li><a href="/blog/beginner-workout-guide">健身新手必看：入門訓練完整指南</a></li>
+        <li><a href="/blog/bouldering-beginner-guide-for-gym-goers">攀岩抱石入門指南</a></li>
+      </ul>
     `,
   },
   {
@@ -548,6 +572,7 @@ export const batchD: BlogPost[] = [
       { id: "training-and-sleep-timing", text: "訓練時間會影響睡眠嗎？", level: 2 },
       { id: "nap-for-gains", text: "午睡能補救嗎？", level: 2 },
       { id: "sleep-faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "練很兇但沒長肉？問題可能出在恢復",
@@ -689,6 +714,13 @@ export const batchD: BlogPost[] = [
       <p>太飽或吃太油確實會影響。但適量的蛋白質（像前面提到的酪蛋白）反而有助於夜間恢復。重點是不要吃太多，也不要吃完就馬上躺下。</p>
 
       <p>下次你在考慮要不要多做一組、多喝一杯蛋白質的時候，不如先想想：今天晚上能不能早一個小時上床？你在床上的那幾個小時，可能比你多練的那一組更有價值。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/muscle-soreness-training-effectiveness-truth">肌肉痠痛代表有練到嗎？</a></li>
+        <li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
+        <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
+      </ul>
     `,
   },
   {
@@ -713,6 +745,7 @@ export const batchD: BlogPost[] = [
       { id: "how-to-choose-trainer", text: "怎麼挑到好教練？五個判斷標準", level: 2 },
       { id: "hybrid-approach", text: "最划算的方式：混合訓練模式", level: 2 },
       { id: "trainer-faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想知道你現在適合哪種訓練方式？",
@@ -874,6 +907,13 @@ export const batchD: BlogPost[] = [
       <p>不一定。有時候問題不在訓練本身，可能是營養沒跟上、睡眠不足、或壓力太大。但如果你排除了這些因素、課表也做了調整還是沒進步，找教練評估一下是值得的。有時候一個外部視角就能發現你自己看不到的盲點。</p>
 
       <p>不管你選擇哪種方式，最重要的是「開始」和「持續」。一個完美但你不會執行的計畫，不如一個普通但你每天都做的計畫。找到適合你現階段的訓練方式，然後堅持下去。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/beginner-workout-guide">健身新手必看：入門訓練完整指南</a></li>
+        <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
+        <li><a href="/blog/fitness-motivation-habit-science">健身沒動力怎麼辦？</a></li>
+      </ul>
     `,
   },
 ];

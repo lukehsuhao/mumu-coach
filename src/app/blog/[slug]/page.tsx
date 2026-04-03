@@ -6,6 +6,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import TableOfContents from "@/components/table-of-contents";
 import BlogCtaSection from "@/components/blog-cta";
+import RelatedArticles from "@/components/related-articles";
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -88,6 +89,9 @@ export default async function BlogPostPage({
                   prose-ul:my-4 prose-ol:my-4"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />
+
+              {/* Related articles */}
+              <RelatedArticles currentSlug={post.slug} currentTags={post.tags} />
 
               {/* CTA */}
               <BlogCtaSection cta={post.cta} />

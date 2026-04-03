@@ -25,6 +25,7 @@ export const batchC: BlogPost[] = [
       { id: "tracking-tips", text: "不想算熱量？用手掌估算法", level: 2 },
       { id: "common-mistakes", text: "減脂外食最常踩的 5 個坑", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "外食族也想減脂成功？讓教練幫你規劃",
@@ -181,6 +182,13 @@ export const batchC: BlogPost[] = [
 <p>如果只吃泡麵跟麵包，當然不均衡。但如果你按照上面的組合來選——有蛋白質、有蔬菜、有適量碳水，營養其實很完整。現在超商的即食食品品質比十年前好太多了。</p>
 
 <p>減脂不需要你徹底改變生活方式。找到適合你日常作息的吃法，然後持續做，比任何極端飲食法都有效。如果你不確定自己的熱量目標應該設多少，或者不知道怎麼在你常吃的餐廳裡做出更好的選擇，歡迎來聊聊。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+<li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
+<li><a href="/blog/nutrition-basics">健身飲食基礎：吃對了，訓練才有效</a></li>
+<li><a href="/blog/intermittent-fasting-guide-science-based">間歇性斷食真的有效嗎？</a></li>
+</ul>
 `,
   },
   {
@@ -210,6 +218,7 @@ export const batchC: BlogPost[] = [
       { id: "common-myths", text: "運動飲食常見迷思", level: 2 },
       { id: "sample-schedules", text: "不同練習時段的飲食時間表", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想知道你的訓練飲食怎麼搭最有效？",
@@ -406,6 +415,13 @@ export const batchC: BlogPost[] = [
 <p>超商賣的那種高蛋白飲品（像是豆漿、蛋白飲等）當然可以。看一下營養標示，蛋白質含量跟糖分含量就知道值不值得買。有些看起來是「高蛋白」，但糖加了不少，要注意。真正方便又實惠的還是自己沖乳清蛋白粉。</p>
 
 <p>運動飲食這件事，核心就兩個字：<strong>簡單</strong>。不用把它搞得很複雜，先把每天的總蛋白質量顧好，然後在訓練前後各安排一頓像樣的餐，你就贏過 80% 的人了。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+<li><a href="/blog/post-workout-nutrition-guide">運動後吃什麼？教練的營養補充完整攻略</a></li>
+<li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
+<li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
+</ul>
 `,
   },
   {
@@ -435,6 +451,7 @@ export const batchC: BlogPost[] = [
       { id: "realistic-expectations", text: "合理的期待", level: 2 },
       { id: "recomp-vs-bulk-cut", text: "身體重組 vs 增肌期＋減脂期", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想要一邊練一邊瘦？教練幫你規劃",
@@ -587,6 +604,13 @@ export const batchC: BlogPost[] = [
 <p>非常適合。研究顯示女性在身體重組方面的反應跟男性一樣好，甚至有些研究發現女性在能量缺口中保留肌肉的能力略優於男性。不要怕練重、不要怕吃蛋白質——你不會變「金剛芭比」的，那需要非常極端的訓練量跟飲食。</p>
 
 <p>身體重組不是捷徑，但對很多人來說，它是一條更舒服、更可持續的路。把蛋白質吃夠、認真訓練、睡好覺，給身體時間去改變。你會在某一天照鏡子的時候，突然發現——「欸，我好像不一樣了。」</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+<li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
+<li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
+<li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
+</ul>
 `,
   },
   {
@@ -616,6 +640,7 @@ export const batchC: BlogPost[] = [
       { id: "common-mistakes", text: "筋膜放鬆常見錯誤", level: 2 },
       { id: "when-to-see-a-pro", text: "什麼時候該找專業的來", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "身體卡卡的？讓教練幫你鬆一下",
@@ -746,6 +771,13 @@ export const batchC: BlogPost[] = [
 <p>不行。筋膜放鬆可以作為暖身的一部分，但不能取代動態伸展跟漸進式的重量暖身。正確的順序是：短時間滾筒放鬆 → 動態伸展 → 漸進式重量暖身 → 正式訓練。</p>
 
 <p>筋膜放鬆不是什麼神秘的東西。它就是照顧你的身體，讓你的組織維持在好的狀態，這樣你才能練得更好、恢復得更快、受傷的風險更低。把它當成刷牙一樣的日常習慣——每天花 10 分鐘，你的身體會感謝你的。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+<li><a href="/blog/shoulder-pain-corrective-exercise-guide">肩膀痛還能練嗎？</a></li>
+<li><a href="/blog/knee-pain-squat-prevention-guide">膝蓋痛還能深蹲嗎？</a></li>
+<li><a href="/blog/muscle-soreness-training-effectiveness-truth">肌肉痠痛代表有練到嗎？</a></li>
+</ul>
 `,
   },
   {
@@ -777,6 +809,7 @@ export const batchC: BlogPost[] = [
       { id: "safe-alternatives", text: "安全的替代動作", level: 3 },
       { id: "when-to-see-doctor", text: "什麼時候該看醫生", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "肩膀不舒服又想繼續練？教練幫你找出路",
@@ -951,6 +984,13 @@ export const batchC: BlogPost[] = [
 <p>旋轉肌訓練用輕到中等阻力就夠了。大部分人用紅色或綠色（阻力約 5-15 磅）的彈力帶就很有感。如果你可以輕鬆做 20 次以上，再換重一級。</p>
 
 <p>肩膀問題不是世界末日。大部分的情況都可以透過調整訓練＋矯正運動來改善。重要的是不要忽視它，也不要因為害怕就什麼都不練。找到安全的動作範圍，持續訓練，同時有系統地強化弱點——你的肩膀會比以前更穩、更強。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+<li><a href="/blog/bench-press-form-guide">臥推正確姿勢全解析</a></li>
+<li><a href="/blog/sports-massage-myofascial-release-guide">運動按摩是什麼？筋膜放鬆完整指南</a></li>
+<li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
+</ul>
 `,
   },
 ];

@@ -31,6 +31,7 @@ export const batchA: BlogPost[] = [
       { id: "training-program", text: "8 週硬舉訓練菜單", level: 2 },
       { id: "warm-up-routine", text: "硬舉前的暖身流程", level: 2 },
       { id: "faq", text: "學員常問的問題", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想把硬舉練好但怕受傷？",
@@ -153,6 +154,13 @@ export const batchA: BlogPost[] = [
       <p>護腰帶不是拿來「保護腰」的，它的功能是讓你的腹內壓更有效率。我建議在重量超過 80% 1RM 時再使用，平常的訓練盡量靠自己的核心穩定。長期依賴護腰帶反而會讓核心變弱。</p>
       <p><strong>Q：硬舉完臀部沒感覺，都是腰在出力？</strong></p>
       <p>這代表你的臀部啟動有問題。在硬舉之前先做 2-3 組的臀橋或彈力帶蚌殼式，讓臀肌「醒過來」再開始拉。另外注意鎖死的時候要主動用力夾臀，不是靠腰把身體往後推。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？教練的正確姿勢完整教學</a></li>
+        <li><a href="/blog/bench-press-form-guide">臥推正確姿勢全解析</a></li>
+        <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
+      </ul>
     `,
   },
   {
@@ -181,6 +189,7 @@ export const batchA: BlogPost[] = [
       { id: "bench-variations", text: "臥推變化式與適用時機", level: 2 },
       { id: "bench-program", text: "臥推進步的訓練安排", level: 2 },
       { id: "shoulder-pain-fix", text: "臥推肩膀痛怎麼辦？", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "臥推卡關或肩膀不舒服？",
@@ -284,6 +293,13 @@ export const batchA: BlogPost[] = [
         <li><strong>檢查設定</strong>：九成的臥推肩痛來自於肩胛骨沒收好或手肘太開</li>
       </ul>
       <p>如果疼痛持續超過兩週沒有改善，建議去看運動醫學科或物理治療師，排除結構性的問題。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
+        <li><a href="/blog/shoulder-pain-corrective-exercise-guide">肩膀痛還能練嗎？常見肩關節問題與矯正運動</a></li>
+        <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
+      </ul>
     `,
   },
   {
@@ -310,6 +326,7 @@ export const batchA: BlogPost[] = [
       { id: "recovery-nutrition", text: "恢復與營養基礎", level: 2 },
       { id: "first-meet-tips", text: "第一場比賽的實用建議", level: 2 },
       { id: "taiwan-powerlifting", text: "台灣健力資源", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想踏進健力但不知道從何練起？",
@@ -456,6 +473,13 @@ export const batchA: BlogPost[] = [
         <li><strong>線上社群</strong>：Facebook 有好幾個健力交流社團，可以找到訓練夥伴和比賽資訊</li>
         <li><strong>教練資源</strong>：找有健力比賽經驗的教練帶你比較有效率，因為比賽的細節光靠網路很難學完</li>
       </ul>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？教練的正確姿勢完整教學</a></li>
+        <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
+        <li><a href="/blog/periodization-training-guide">週期化訓練課表怎麼排？</a></li>
+      </ul>
     `,
   },
   {
@@ -486,6 +510,7 @@ export const batchA: BlogPost[] = [
       { id: "which-model", text: "哪種模型適合你？", level: 2 },
       { id: "deload-week", text: "減量週怎麼安排", level: 2 },
       { id: "common-mistakes-programming", text: "課表安排的常見地雷", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "不知道怎麼安排自己的課表？",
@@ -647,6 +672,13 @@ export const batchA: BlogPost[] = [
         <li><strong>只看數字不看品質</strong>：重量加上去了但動作走樣了，那不叫進步。在加重之前，確保你的技術是穩定的</li>
         <li><strong>沒有記錄</strong>：不做訓練紀錄就不可能做好週期化。每次練完花 2 分鐘記下重量、組數、次數、RPE，這些數據是你未來安排課表的基礎</li>
       </ul>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
+        <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
+        <li><a href="/blog/muscle-soreness-training-effectiveness-truth">肌肉痠痛代表有練到嗎？</a></li>
+      </ul>
     `,
   },
   {
@@ -679,6 +711,7 @@ export const batchA: BlogPost[] = [
       { id: "advanced-program", text: "進階版（一週 5 天）", level: 3 },
       { id: "progression-tips", text: "居家訓練怎麼漸進？", level: 2 },
       { id: "common-questions", text: "居家啞鈴訓練 Q&A", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "居家訓練也想有教練帶？",
@@ -888,6 +921,13 @@ export const batchA: BlogPost[] = [
       <p>一定要。不管在哪裡練都要暖身。在家的暖身可以簡單一點：3-5 分鐘的關節繞環 + 輕重量或徒手做第一個動作的模式就夠了。千萬不要冷啟動就開始做大重量。</p>
       <p><strong>Q：住公寓怕吵到鄰居怎麼辦？</strong></p>
       <p>這是很實際的問題。啞鈴不要放地上摔，放下的時候控制好速度。在地板上鋪一塊厚的瑜伽墊或健身地墊可以有效減少噪音和震動。避免做跳躍類的動作，用靜態的動作替代就好。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
+        <li><a href="/blog/office-worker-exercise-plan">久坐上班族的運動計畫</a></li>
+        <li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
+      </ul>
     `,
   },
 ];

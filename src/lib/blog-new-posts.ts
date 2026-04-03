@@ -42,7 +42,8 @@ export const newPosts: BlogPost[] = [
       { id: "一天要吃幾餐才能有效增肌", text: "一天要吃幾餐才能有效增肌？", level: 3 },
       { id: "外食族怎麼吃才能增肌", text: "外食族怎麼吃才能增肌？", level: 3 },
       { id: "增肌可以同時減脂嗎", text: "增肌可以同時減脂嗎？", level: 3 },
-      { id: "結論增肌飲食沒有秘密只有執行", text: "結論：增肌飲食沒有秘密，只有執行", level: 2 }
+      { id: "結論增肌飲食沒有秘密只有執行", text: "結論：增肌飲食沒有秘密，只有執行", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -446,6 +447,13 @@ export const newPosts: BlogPost[] = [
 <li>MDPI Nutrients (2025). Nutrient timing and muscle protein synthesis: systematic review.</li>
 <li>PMC Meta-analysis (2025). Creatine supplementation and resistance training: 23-study analysis.</li>
 </ul>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/pre-post-workout-nutrition-timing">運動前後怎麼吃？</a></li>
+  <li><a href="/blog/high-protein-kidney-myth">蛋白質吃太多會傷腎嗎？</a></li>
+  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
+</ul>
     `,
   },  {
     slug: "beginner-weight-training-guide",
@@ -477,7 +485,8 @@ export const newPosts: BlogPost[] = [
       { id: "錯誤-7飲食完全不管", text: "錯誤 7：飲食完全不管", level: 3 },
       { id: "要請教練嗎自己練可以嗎", text: "要請教練嗎？自己練可以嗎？", level: 2 },
       { id: "faq新手重訓最常問的-8-個問題", text: "FAQ：新手重訓最常問的 8 個問題", level: 2 },
-      { id: "結論開始永遠比完美更重要", text: "結論：開始，永遠比完美更重要", level: 2 }
+      { id: "結論開始永遠比完美更重要", text: "結論：開始，永遠比完美更重要", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -737,6 +746,13 @@ export const newPosts: BlogPost[] = [
 <li><em>The influence of resistance exercise training prescription variables on skeletal muscle mass, strength, and physical function in healthy adults: An umbrella review, Chinese Journal of Sports Medicine (2023)</em></li>
 <li><em>Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis, PMC (2023)</em></li>
 </ul>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/beginner-workout-guide">健身新手必看：入門訓練完整指南</a></li>
+  <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？</a></li>
+  <li><a href="/blog/personal-trainer-vs-self-training">新手該請教練嗎？</a></li>
+</ul>
     `,
   },  {
     slug: "squat-correct-form-complete-guide",
@@ -773,7 +789,8 @@ export const newPosts: BlogPost[] = [
       { id: "新手階段第-1-8-週動作模式優先", text: "新手階段（第 1-8 週）：動作模式優先", level: 3 },
       { id: "初中階段第-9-24-週力量與肌肉量並行", text: "初中階段（第 9-24 週）：力量與肌肉量並行", level: 3 },
       { id: "常見問題-faq", text: "常見問題 FAQ", level: 2 },
-      { id: "結論從今天開始蹲對比蹲重更重要", text: "結論：從今天開始，蹲對比蹲重更重要", level: 2 }
+      { id: "結論從今天開始蹲對比蹲重更重要", text: "結論：從今天開始，蹲對比蹲重更重要", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -1023,6 +1040,13 @@ export const newPosts: BlogPost[] = [
 <p><strong>第二，破除迷思，相信研究數據</strong>。膝蓋超過腳尖沒問題、全蹲比半蹲更有效、深蹲對膝蓋的傷害遠比很多人想像的少。用正確的觀念訓練，不要被沒有根據的說法拖累。</p>
 <p><strong>第三，循序漸進，不要急</strong>。深蹲的重量進步需要時間，尤其是技術性的動作。每一次蹲都比上一次更穩、更深、更有控制，這才是正確的進步方式。</p>
 <p>深蹲是一輩子的動作，值得花時間做對。開始吧。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/knee-pain-squat-prevention-guide">膝蓋痛還能深蹲嗎？</a></li>
+  <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
+  <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
+</ul>
     `,
   },  {
     slug: "intermittent-fasting-guide-science-based",
@@ -1065,7 +1089,8 @@ export const newPosts: BlogPost[] = [
       { id: "迷思-4間歇性斷食可以吃什麼都不限制", text: "迷思 4：「間歇性斷食可以吃什麼都不限制」", level: 3 },
       { id: "迷思-5做有氧要有吃東西才有力空腹有氧沒效果", text: "迷思 5：「做有氧要有吃東西才有力，空腹有氧沒效果」", level: 3 },
       { id: "faq關於間歇性斷食你最想知道的-8-個問題", text: "FAQ：關於間歇性斷食你最想知道的 8 個問題", level: 2 },
-      { id: "結論間歇性斷食是工具不是魔法", text: "結論：間歇性斷食是工具，不是魔法", level: 2 }
+      { id: "結論間歇性斷食是工具不是魔法", text: "結論：間歇性斷食是工具，不是魔法", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -1281,6 +1306,13 @@ export const newPosts: BlogPost[] = [
 <li><strong>如果有任何不舒服或慢性病，先諮詢醫師</strong></li>
 </ol>
 <p>斷食是手段，健康才是目的。選一個你能長期執行的方式，比追求最「完美」的方法更重要。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
+  <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略</a></li>
+  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
+</ul>
     `,
   },  {
     slug: "post-workout-nutrition-guide",
@@ -1331,7 +1363,8 @@ export const newPosts: BlogPost[] = [
       { id: "q6睡前訓練運動後晚上還要吃東西嗎", text: "Q6：睡前訓練，運動後晚上還要吃東西嗎？", level: 3 },
       { id: "q7喝牛奶可以取代蛋白粉嗎", text: "Q7：喝牛奶可以取代蛋白粉嗎？", level: 3 },
       { id: "q8沒有時間吃正餐最快速的運動後補充是什麼", text: "Q8：沒有時間吃正餐，最快速的運動後補充是什麼？", level: 3 },
-      { id: "結論把每次訓練的價值最大化", text: "結論：把每次訓練的價值最大化", level: 2 }
+      { id: "結論把每次訓練的價值最大化", text: "結論：把每次訓練的價值最大化", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -1623,6 +1656,13 @@ export const newPosts: BlogPost[] = [
 </ul>
 <p>記住：<strong>訓練讓你變強的機會，最終由你吃什麼來決定。</strong> 把每次訓練後的 30 分鐘當作投資報酬率最高的時刻，認真對待你的飲食。</p>
 <p>你不需要做到完美，但你需要做到一致。這才是長期進步的關鍵。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/pre-post-workout-nutrition-timing">運動前後怎麼吃？</a></li>
+  <li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
+  <li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
+</ul>
     `,
   },  {
     slug: "body-fat-measurement-methods-comparison",
@@ -1649,7 +1689,8 @@ export const newPosts: BlogPost[] = [
       { id: "女性體脂率對照表", text: "女性體脂率對照表", level: 3 },
       { id: "不要被數字綁架體脂率的正確心態", text: "不要被數字綁架：體脂率的正確心態", level: 2 },
       { id: "faq體脂率測量常見問題", text: "FAQ：體脂率測量常見問題", level: 2 },
-      { id: "結論選對方法、固定條件、追蹤趨勢", text: "結論：選對方法、固定條件、追蹤趨勢", level: 2 }
+      { id: "結論選對方法、固定條件、追蹤趨勢", text: "結論：選對方法、固定條件、追蹤趨勢", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -1942,6 +1983,13 @@ export const newPosts: BlogPost[] = [
 <p><strong>第三：</strong> 如果你有固定的健身教練，可以請他幫你做皮脂夾測量，CP 值高、準確度也不輸 InBody，關鍵是要同一個人量。</p>
 <p>體脂率是一個工具，幫你了解自己的身體組成。不是用來讓你焦慮的數字，更不是決定你有沒有「練好」的唯一標準。</p>
 <p>把條件標準化，把時間拉長，趨勢對了，方向就對了。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
+  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
+  <li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
+</ul>
     `,
   },  {
     slug: "office-worker-exercise-plan",
@@ -1986,7 +2034,8 @@ export const newPosts: BlogPost[] = [
       { id: "q6下班後已經很累還要運動嗎", text: "Q6：下班後已經很累，還要運動嗎？", level: 3 },
       { id: "q7腰痠背痛的人適合做什麼運動", text: "Q7：腰痠背痛的人適合做什麼運動？", level: 3 },
       { id: "q8早起運動和下班後運動哪個效果比較好", text: "Q8：早起運動和下班後運動哪個效果比較好？", level: 3 },
-      { id: "結論開始才是最難也最重要的那一步", text: "結論：開始，才是最難也最重要的那一步", level: 2 }
+      { id: "結論開始才是最難也最重要的那一步", text: "結論：開始，才是最難也最重要的那一步", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -2414,6 +2463,13 @@ export const newPosts: BlogPost[] = [
 <p>然後明天多做 5 次。</p>
 <p>久坐是每天累積的傷害，運動也是每天累積的修復。沒有什麼捷徑，但也沒有你想像的那麼難。</p>
 <p>時間有限，但夠用。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/home-dumbbell-workout-guide">居家啞鈴訓練全攻略</a></li>
+  <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略</a></li>
+  <li><a href="/blog/fitness-motivation-habit-science">健身沒動力怎麼辦？</a></li>
+</ul>
     `,
   },  {
     slug: "women-weight-training-myths",
@@ -2459,7 +2515,8 @@ export const newPosts: BlogPost[] = [
       { id: "迷思-6重訓會讓肩膀變寬", text: "迷思 6：「重訓會讓肩膀變寬」", level: 3 },
       { id: "迷思-7女生不需要那麼重的重量", text: "迷思 7：「女生不需要那麼重的重量」", level: 3 },
       { id: "faq女生重訓常見問題", text: "FAQ：女生重訓常見問題", level: 2 },
-      { id: "結論不要讓一個錯誤的迷思讓你錯過最好的投資", text: "結論：不要讓一個錯誤的迷思讓你錯過最好的投資", level: 2 }
+      { id: "結論不要讓一個錯誤的迷思讓你錯過最好的投資", text: "結論：不要讓一個錯誤的迷思讓你錯過最好的投資", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -2775,6 +2832,13 @@ export const newPosts: BlogPost[] = [
 <li>相信過程，給它 12 週</li>
 </ol>
 <p>12 週後你會看到一個不一樣的自己——不是變壯的那種，是更好的那種。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
+  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
+  <li><a href="/blog/pregnancy-weight-training-safety">孕期可以重訓嗎？</a></li>
+</ul>
     `,
   },  {
     slug: "muscle-soreness-training-effectiveness-truth",
@@ -2809,7 +2873,8 @@ export const newPosts: BlogPost[] = [
       { id: "中等至嚴重痠痛建議先恢復", text: "中等至嚴重痠痛：建議先恢復", level: 3 },
       { id: "不破不立是錯的", text: "「不破不立」是錯的", level: 3 },
       { id: "faq關於肌肉痠痛的-8-個常見問題", text: "FAQ：關於肌肉痠痛的 8 個常見問題", level: 2 },
-      { id: "結論把注意力從痠不痠轉移到進步沒有", text: "結論：把注意力從「痠不痠」轉移到「進步沒有」", level: 2 }
+      { id: "結論把注意力從痠不痠轉移到進步沒有", text: "結論：把注意力從「痠不痠」轉移到「進步沒有」", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -3007,6 +3072,13 @@ export const newPosts: BlogPost[] = [
 <li><em>2024 Meta-analysis: Acute sleep deprivation and athletic performance.</em></li>
 <li><em>2018 Meta-analysis: Massage as recovery technique for DOMS and perceived fatigue.</em></li>
 </ol>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/sleep-muscle-growth-guide">睡眠與肌肉生長</a></li>
+  <li><a href="/blog/sports-massage-myofascial-release-guide">運動按摩是什麼？</a></li>
+  <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
+</ul>
     `,
   },  {
     slug: "high-protein-kidney-myth",
@@ -3047,7 +3119,8 @@ export const newPosts: BlogPost[] = [
       { id: "q6蛋白質吃多了會骨質疏鬆嗎", text: "Q6：蛋白質吃多了會骨質疏鬆嗎？", level: 3 },
       { id: "q7哪些人絕對不能吃高蛋白", text: "Q7：哪些人絕對不能吃高蛋白？", level: 3 },
       { id: "q8健身吃高蛋白前要做什麼檢查", text: "Q8：健身吃高蛋白前要做什麼檢查？", level: 3 },
-      { id: "結論放心吃但先確認你的起點", text: "結論：放心吃，但先確認你的起點", level: 2 }
+      { id: "結論放心吃但先確認你的起點", text: "結論：放心吃，但先確認你的起點", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -3228,6 +3301,13 @@ export const newPosts: BlogPost[] = [
 <li><strong>如果有任何已知的慢性疾病（腎病、糖尿病、高血壓），請先諮詢醫師</strong>，不要自行決定攝取量。</li>
 </ol>
 <p>傷腎的不是蛋白質，是不了解自己身體狀況就亂吃。搞清楚自己的基準值，訓練才能走得長遠。</p>
+
+<h2 id="further-reading">延伸閱讀</h2>
+<ul>
+  <li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
+  <li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
+  <li><a href="/blog/post-workout-nutrition-guide">運動後吃什麼？</a></li>
+</ul>
     `,
   }
 ];

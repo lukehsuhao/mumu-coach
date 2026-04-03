@@ -32,6 +32,7 @@ export const batchB: BlogPost[] = [
       { id: "accessory-movements", text: "輔助訓練動作推薦", level: 2 },
       { id: "training-plan", text: "新手 4 週入門計畫", level: 2 },
       { id: "find-a-coach", text: "為什麼你需要一個教練", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想學舉重但怕受傷？讓專業教練帶你安全入門",
@@ -157,6 +158,13 @@ export const batchB: BlogPost[] = [
       <p>一個有經驗的教練可以在旁邊即時看出你的問題，馬上給你修正的提示語。有時候就是一句「二拉晚一點」或「手肘翻快一點」就能讓你突然開竅。</p>
       <p>而且舉重的技術偏差是會累積的。錯誤的動作模式一旦養成習慣，要改掉比重新學還難。一開始就找教練把動作建立好，長遠來看反而省時間。</p>
       <p>如果你對舉重有興趣，但不確定自己現在的能力適不適合，歡迎先來聊聊。評估一下現在的活動度和基礎肌力，我再幫你規劃適合的進入方式。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/explosive-power-training-guide">爆發力訓練完整指南</a></li>
+        <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
+        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？</a></li>
+      </ul>
     `,
   },
   {
@@ -188,6 +196,7 @@ export const batchB: BlogPost[] = [
       { id: "nsca-guidelines", text: "NSCA 的訓練量建議", level: 3 },
       { id: "eight-week-plan", text: "8 週爆發力訓練計畫", level: 2 },
       { id: "common-mistakes-power", text: "爆發力訓練最容易踩的坑", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想讓運動表現突破瓶頸？",
@@ -336,6 +345,13 @@ export const batchB: BlogPost[] = [
         <li><strong>只練單一方向</strong>：大部分人只練前後和上下方向的爆發力（跳、蹲），忽略了側向和旋轉的爆發力。這在很多運動中都很重要。</li>
       </ul>
       <p>爆發力訓練是讓你從「有力氣」升級到「又快又有力」的關鍵。但它比一般的肌力訓練更講究動作品質和訓練規劃。如果你不確定自己目前的能力適合什麼程度的爆發力訓練，找個教練評估一下是最有效率的做法。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/olympic-weightlifting-beginner-guide">奧林匹克舉重入門</a></li>
+        <li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
+        <li><a href="/blog/periodization-training-guide">週期化訓練課表怎麼排？</a></li>
+      </ul>
     `,
   },
   {
@@ -367,6 +383,7 @@ export const batchB: BlogPost[] = [
       { id: "anti-rotation-exercises", text: "抗旋轉進階動作", level: 2 },
       { id: "integrated-core", text: "整合型核心動作：讓核心真的派上用場", level: 2 },
       { id: "core-in-training", text: "怎麼把核心訓練安排進課表", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "核心練了半天還是沒感覺？",
@@ -499,6 +516,13 @@ export const batchB: BlogPost[] = [
       </ul>
       <p>每週確保四個面向都有練到。不需要每次都練全部，可以分散在不同天。重點是長期下來每個面向都有足夠的刺激。</p>
       <p>核心訓練的精髓不在於把肚子練得多酸，而在於讓核心在你需要它的時候穩穩地幫你做事——不管是扛大重量、打球跑步、還是彎腰抱小孩。如果你不確定自己的核心哪裡比較弱，也歡迎來找我做個評估，我們再一起把弱環補起來。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？</a></li>
+        <li><a href="/blog/explosive-power-training-guide">爆發力訓練完整指南</a></li>
+        <li><a href="/blog/bouldering-beginner-guide-for-gym-goers">攀岩抱石入門指南</a></li>
+      </ul>
     `,
   },
   {
@@ -533,6 +557,7 @@ export const batchB: BlogPost[] = [
       { id: "phase-four", text: "第四階段：產後 6 個月以上", level: 3 },
       { id: "warning-signs", text: "需要暫停運動的警訊", level: 2 },
       { id: "mindset-shift", text: "給產後媽媽的心裡話", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想安全地恢復產前的體能？",
@@ -688,6 +713,13 @@ export const batchB: BlogPost[] = [
         <li>尋求專業協助——不管是物理治療師還是有孕產專業認證的教練</li>
       </ul>
       <p>你已經做了最辛苦的事了。恢復這件事，我們可以慢慢來。如果你在產後恢復過程中有任何不確定的地方，歡迎來聊聊，我可以幫你評估目前的狀態，設計適合你現階段的訓練方案。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/pregnancy-weight-training-safety">孕期可以重訓嗎？</a></li>
+        <li><a href="/blog/prenatal-exercise-guide">孕期運動安全指南</a></li>
+        <li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
+      </ul>
     `,
   },
   {
@@ -719,6 +751,7 @@ export const batchB: BlogPost[] = [
       { id: "absolute-contraindications", text: "絕對禁忌：這些狀況不能運動", level: 2 },
       { id: "stop-signs", text: "運動中出現這些症狀請立刻停止", level: 2 },
       { id: "real-talk", text: "寫給正在猶豫的孕媽咪", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "懷孕中想繼續訓練但不確定安不安全？",
@@ -878,6 +911,13 @@ export const batchB: BlogPost[] = [
       <p>當然，「適度」兩個字很重要。你不是在準備比賽，你是在為分娩和育兒儲備體能。訓練的目的是讓你在孕期過得更舒服、分娩更順利、產後恢復更快。</p>
       <p>每次有孕媽咪來找我上課，我做的第一件事一定是請她帶產檢資料來，確認醫師沒有特別的運動禁忌。安全永遠是第一位。在確認安全的基礎上，我會根據你的孕期階段、運動經驗和身體狀況，設計你專屬的訓練方案。</p>
       <p>你的身體正在做一件很了不起的事。好好照顧它，它也會好好照顧你和寶寶。如果你有任何關於孕期訓練的疑問，隨時歡迎來聊。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/postpartum-recovery-training-guide">產後恢復訓練完整指南</a></li>
+        <li><a href="/blog/prenatal-exercise-guide">孕期運動安全指南</a></li>
+        <li><a href="/blog/women-weight-training-myths">女生重訓會變金剛芭比嗎？</a></li>
+      </ul>
     `,
   },
 ];

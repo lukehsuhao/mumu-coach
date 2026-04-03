@@ -49,6 +49,7 @@ const posts: BlogPost[] = [
       { id: "lower-body", text: "下半身動作", level: 3 },
       { id: "common-mistakes", text: "常見錯誤", level: 2 },
       { id: "summary", text: "總結", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "不確定從哪裡開始？讓教練帶你入門",
@@ -107,6 +108,13 @@ const posts: BlogPost[] = [
       <h2 id="summary">總結</h2>
       <p>健身是一場馬拉松，不是短跑。保持耐心、維持一致性，你一定會看到改變。如果不確定動作是否正確，建議找一位專業教練指導，避免受傷。</p>
       <p>想要開始你的健身旅程嗎？歡迎聯繫牧牧教練，為你量身打造訓練計畫！</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南：教練帶你從零開始</a></li>
+        <li><a href="/blog/personal-trainer-vs-self-training">新手該請教練嗎？自主訓練 vs 私人教練完整比較</a></li>
+        <li><a href="/blog/nutrition-basics">健身飲食基礎：吃對了，訓練才有效</a></li>
+      </ul>
     `,
   },
   {
@@ -125,6 +133,7 @@ const posts: BlogPost[] = [
       { id: "third-trimester", text: "第三孕期（28-40 週）", level: 2 },
       { id: "precautions", text: "注意事項與禁忌", level: 2 },
       { id: "postpartum", text: "產後恢復", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "孕期運動不知道怎麼開始？牧牧教練陪你",
@@ -185,6 +194,13 @@ const posts: BlogPost[] = [
       <h2 id="postpartum">產後恢復</h2>
       <p>產後恢復運動同樣重要。一般自然產後 4-6 週、剖腹產後 6-8 週可以開始輕度運動，但務必先獲得醫師許可。</p>
       <p>牧牧教練擁有豐富的孕婦健身指導經驗，從孕期到產後都能給你最專業的陪伴。歡迎私訊預約諮詢！</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/pregnancy-weight-training-safety">孕期可以重訓嗎？安全強度與禁忌動作完整解析</a></li>
+        <li><a href="/blog/postpartum-recovery-training-guide">產後恢復訓練完整指南</a></li>
+        <li><a href="/blog/women-weight-training-myths">女生重訓會變金剛芭比嗎？</a></li>
+      </ul>
     `,
   },
   {
@@ -203,6 +219,7 @@ const posts: BlogPost[] = [
       { id: "fats", text: "脂肪", level: 3 },
       { id: "meal-timing", text: "進食時機", level: 2 },
       { id: "tips", text: "實用飲食建議", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想要專屬你的飲食規劃？",
@@ -245,6 +262,13 @@ const posts: BlogPost[] = [
         <li>準備便當，減少外食的不確定性</li>
       </ol>
       <p>飲食調整是一個漸進的過程，不需要一次到位。想要更個人化的飲食建議，歡迎聯繫牧牧教練！</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？教練的完整營養攻略</a></li>
+        <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略：超商、自助餐怎麼吃不爆卡</a></li>
+        <li><a href="/blog/pre-post-workout-nutrition-timing">運動前後怎麼吃？最佳飲食時機指南</a></li>
+      </ul>
     `,
   },
   {
@@ -279,6 +303,7 @@ const posts: BlogPost[] = [
       { id: "maintenance", text: "如何維持減脂成果不復胖？", level: 2 },
       { id: "faq", text: "常見問題 FAQ", level: 2 },
       { id: "conclusion", text: "結論：開始你的科學減脂之路", level: 2 },
+      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "準備好開始科學減脂了嗎？",
@@ -474,6 +499,13 @@ const posts: BlogPost[] = [
       </ul>
       <p>我帶過的學員，能成功維持的人有個共同點：他們不是靠意志力硬撐，而是真的理解為什麼要這樣做，然後把它變成習慣。</p>
       <p>不用想太多。今天就選一件事開始：多吃一份蛋白質、去快走 30 分鐘、或是今晚早點睡。</p>
+
+      <h2 id="further-reading">延伸閱讀</h2>
+      <ul>
+        <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略：超商、自助餐怎麼吃不爆卡</a></li>
+        <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？身體重組完整攻略</a></li>
+        <li><a href="/blog/intermittent-fasting-guide-science-based">間歇性斷食真的有效嗎？</a></li>
+      </ul>
     `,
   },
 ];

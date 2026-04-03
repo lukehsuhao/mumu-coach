@@ -61,6 +61,12 @@ const mainLinks = [
     description: "了解更多關於牧牧教練",
     href: "/",
   },
+  {
+    icon: "map",
+    title: "訓練地點",
+    description: "Fitness Hub・南京東路四段130號 B1",
+    href: "https://maps.app.goo.gl/pqsfagWokeWkRxd49",
+  },
 ];
 
 export default function LinksPage() {
