@@ -32,12 +32,13 @@ export default function Contact() {
         >
           {/* Main LINE CTA */}
           <a
-            href="#"
-            className="inline-flex items-center gap-3 bg-[#06C755] hover:bg-[#05b34d] text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-200 hover:scale-[1.03] hover:shadow-xl shadow-lg cursor-pointer"
+            href="https://lin.ee/wCbemYz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-expand [--cta-color:#06C755] text-xl"
           >
-            <MessageCircle size={28} />
-            加入 LINE 立即諮詢
-            <ArrowRight size={24} />
+            <span className="cta-label flex items-center gap-2"><MessageCircle size={24} />加入 LINE 立即諮詢</span>
+            <span className="cta-icon"><ArrowRight size={22} /></span>
           </a>
 
           <p className="mt-4 text-sm text-muted">

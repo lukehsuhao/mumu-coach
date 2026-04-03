@@ -46,7 +46,7 @@ const posts: BlogPost[] = [
       headline: "不確定從哪裡開始？讓教練帶你入門",
       description: "新手最怕練錯方向。私訊牧牧教練，免費幫你評估體能狀況，規劃適合你的第一份訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -200,7 +200,7 @@ const posts: BlogPost[] = [
       headline: "想要專屬你的飲食規劃？",
       description: "每個人的身體狀況和目標不同，飲食建議也不一樣。私訊牧牧教練，幫你量身打造吃得飽又能瘦的飲食方案。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -276,7 +276,7 @@ const posts: BlogPost[] = [
       headline: "準備好開始科學減脂了嗎？",
       description: "看完原理，下一步就是行動。私訊牧牧教練，幫你算好 TDEE、規劃訓練課表和飲食方案，不用自己摸索。",
       buttonText: "LINE 立即諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `

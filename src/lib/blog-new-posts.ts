@@ -48,7 +48,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -483,7 +483,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -779,7 +779,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -1071,7 +1071,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -1337,7 +1337,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -1655,7 +1655,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -1992,7 +1992,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -2465,7 +2465,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -2815,7 +2815,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `
@@ -3053,7 +3053,7 @@ export const newPosts: BlogPost[] = [
       headline: "想要更專業的指導？",
       description: "每個人的身體狀況不同，私訊牧牧教練，免費幫你評估並規劃專屬訓練計畫。",
       buttonText: "LINE 免費諮詢",
-      buttonHref: "#",
+      buttonHref: "https://lin.ee/wCbemYz",
       variant: "line",
     },
     content: `

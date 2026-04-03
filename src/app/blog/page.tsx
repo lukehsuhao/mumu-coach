@@ -1,5 +1,6 @@
-import { getAllPosts, getAllTags } from "@/lib/blog";
+import { getAllPosts } from "@/lib/blog";
 import Link from "next/link";
+import { Tag } from "lucide-react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 
@@ -10,35 +11,28 @@ export const metadata = {
 
 export default function BlogPage() {
   const posts = getAllPosts();
-  const tags = getAllTags();
 
   return (
     <>
       <Navbar />
       <main className="pt-28 pb-16 px-6 min-h-screen">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-display text-4xl md:text-5xl font-bold tracking-wide mb-2">
-            部落格
-          </h1>
-          <p className="text-muted text-lg mb-10">
-            健身知識、訓練技巧、飲食建議，都在這裡。
-          </p>
-
-          {/* Tags cloud */}
-          <div className="flex flex-wrap gap-2 mb-12">
-            {tags.map(({ tag, count }) => (
-              <Link
-                key={tag}
-                href={`/tags/${encodeURIComponent(tag)}`}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-border text-sm hover:border-primary hover:text-primary transition-colors duration-200 cursor-pointer"
-              >
-                <span className="text-primary">#</span>
-                {tag}
-                <span className="text-xs text-muted bg-background px-1.5 py-0.5 rounded-full">
-                  {count}
-                </span>
-              </Link>
-            ))}
+          <div className="flex items-end justify-between mb-10">
+            <div>
+              <h1 className="font-display text-4xl md:text-5xl font-bold tracking-wide mb-2">
+                部落格
+              </h1>
+              <p className="text-muted text-lg">
+                健身知識、訓練技巧、飲食建議，都在這裡。
+              </p>
+            </div>
+            <Link
+              href="/tags"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border text-sm font-medium hover:border-primary hover:text-primary transition-colors duration-200 cursor-pointer shrink-0"
+            >
+              <Tag size={14} />
+              所有標籤
+            </Link>
           </div>
 
           {/* Posts list */}

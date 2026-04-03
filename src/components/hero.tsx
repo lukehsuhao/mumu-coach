@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
@@ -31,11 +32,11 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="font-display text-5xl md:text-7xl font-bold leading-tight tracking-wide text-foreground"
           >
-            TRANSFORM
+            用科學訓練
             <br />
-            YOUR BODY
+            打造你的
             <br />
-            WITH <span className="text-primary">MUMU</span>
+            <span className="text-primary">理想體態</span>
           </motion.h1>
 
           <motion.p
@@ -55,12 +56,9 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mt-8 flex flex-wrap gap-4"
           >
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-200 hover:scale-[1.02] hover:shadow-lg cursor-pointer"
-            >
-              立即預約體驗課
-              <ArrowRight size={20} />
+            <a href="#contact" className="cta-expand">
+              <span className="cta-label">立即預約體驗課</span>
+              <span className="cta-icon"><ArrowRight size={20} /></span>
             </a>
             <a
               href="#services"
@@ -78,15 +76,15 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="relative hidden md:block"
         >
-          <div className="relative aspect-[3/4] rounded-3xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 shadow-2xl">
-            <div className="absolute inset-0 flex items-center justify-center text-primary/30">
-              <div className="text-center">
-                <div className="w-32 h-32 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <span className="font-display text-4xl font-bold text-primary/40">MM</span>
-                </div>
-                <p className="text-sm text-muted">教練形象照</p>
-              </div>
-            </div>
+          <div className="rounded-3xl overflow-hidden shadow-2xl">
+            <Image
+              src="/coach-portrait.png"
+              alt="牧牧教練形象照"
+              width={1080}
+              height={744}
+              className="w-full h-auto"
+              priority
+            />
           </div>
           {/* Floating badge */}
           <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg p-4 border border-border">

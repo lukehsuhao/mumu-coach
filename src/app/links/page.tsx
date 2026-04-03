@@ -18,7 +18,7 @@ const socialLinks = [
   {
     icon: "line",
     label: "LINE",
-    href: "#",
+    href: "https://lin.ee/wCbemYz",
     color: "from-[#06C755] to-[#05b34d]",
   },
 ];
@@ -46,7 +46,7 @@ const mainLinks = [
     icon: "line-cta",
     title: "LINE 立即諮詢",
     description: "免費諮詢，無壓力溝通",
-    href: "#",
+    href: "https://lin.ee/wCbemYz",
     highlight: true,
   },
   {

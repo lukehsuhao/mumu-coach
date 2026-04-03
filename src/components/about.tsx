@@ -1,14 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { Award, Clock, Shield, Sparkles } from "lucide-react";
-
-const highlights = [
-  { icon: Clock, label: "教學經驗", value: "5+" , unit: "年" },
-  { icon: Award, label: "專業證照", value: "多項", unit: "" },
-  { icon: Shield, label: "安全第一", value: "零", unit: "受傷" },
-  { icon: Sparkles, label: "服務學員", value: "500+", unit: "位" },
-];
+import { Award, Dumbbell, Trophy, BookOpen } from "lucide-react";
 
 export default function About() {
   return (
@@ -21,15 +15,14 @@ export default function About() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
         >
-          <div className="relative aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10 shadow-lg">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-24 h-24 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <span className="font-display text-3xl font-bold text-primary/40">MM</span>
-                </div>
-                <p className="text-sm text-muted">教練生活照</p>
-              </div>
-            </div>
+          <div className="rounded-3xl overflow-hidden shadow-lg">
+            <Image
+              src="/coach-lifestyle.jpg"
+              alt="牧牧教練生活照"
+              width={4553}
+              height={6375}
+              className="w-full h-auto"
+            />
           </div>
         </motion.div>
 
@@ -49,34 +42,64 @@ export default function About() {
               嗨，我是牧牧教練！我相信健身不只是鍛鍊身體，更是一段認識自己、突破自己的旅程。
             </p>
             <p>
-              擁有多年教學經驗與多項專業證照，我擅長依據每位學員的需求與目標，設計最適合的訓練方式。無論你是想增肌減脂、改善體態，還是在孕期保持健康，我都會陪你一步步達成目標。
+              持有 ACE-CPT 美國運動委員會私人教練認證、MedEx 懷孕及產後訓練專家等多項國際證照，曾任 World Gym 私人教練，也是台北市舉重錦標賽選手。我擅長依據每位學員的需求與目標，設計最適合的訓練方式。
             </p>
             <p>
-              我的教學風格溫暖但扎實，注重動作品質與安全。讓我們一起開始這段改變的旅程吧！
+              無論你是想增肌減脂、改善體態，還是在孕期保持健康，我都會陪你一步步達成目標。教學風格溫暖但扎實，注重動作品質與安全。
             </p>
           </div>
 
-          {/* Stats */}
-          <div className="mt-10 grid grid-cols-2 gap-4">
-            {highlights.map((item) => (
-              <div
-                key={item.label}
-                className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border"
-              >
-                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-                  <item.icon size={20} className="text-primary" />
-                </div>
-                <div>
-                  <p className="font-display text-xl font-bold">
-                    {item.value}
-                    <span className="text-sm font-body font-normal text-muted ml-0.5">
-                      {item.unit}
-                    </span>
-                  </p>
-                  <p className="text-xs text-muted">{item.label}</p>
-                </div>
+          {/* Credentials */}
+          <div className="mt-10 space-y-6">
+            {/* 證照 */}
+            <div className="p-5 rounded-xl bg-card border border-border">
+              <div className="flex items-center gap-2 mb-3">
+                <Award size={20} className="text-primary" />
+                <h3 className="font-display font-bold text-lg">證照與研習</h3>
               </div>
-            ))}
+              <ul className="space-y-1.5 text-sm text-muted">
+                <li>ACE-CPT 美國運動委員會私人教練認證</li>
+                <li>MedEx 懷孕及產後訓練專家（PPES）</li>
+                <li>M.E.T Level 1 動作效率訓練</li>
+                <li>KAT 矯正性運動研習</li>
+                <li>工具式軟組織保健技術員（筋膜刀）</li>
+                <li>烏烏醫師孕期與產後肌力訓練實務培訓</li>
+                <li>傳統整復推拿技術士證照</li>
+                <li>CPR + AED 心肺復甦合格人員</li>
+              </ul>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4">
+              {/* 經歷 */}
+              <div className="p-5 rounded-xl bg-card border border-border">
+                <div className="flex items-center gap-2 mb-3">
+                  <Trophy size={20} className="text-primary" />
+                  <h3 className="font-display font-bold text-lg">經歷</h3>
+                </div>
+                <ul className="space-y-1.5 text-sm text-muted">
+                  <li>雙北自由教練</li>
+                  <li>World Gym 私人教練</li>
+                  <li>健生活 Living Fitness 個人 / 團課教練</li>
+                  <li>109 年台北市中正盃舉重錦標賽 61kg</li>
+                  <li>110 年台北市青年盃舉重錦標賽 61kg 第四名</li>
+                </ul>
+              </div>
+
+              {/* 專長 */}
+              <div className="p-5 rounded-xl bg-card border border-border">
+                <div className="flex items-center gap-2 mb-3">
+                  <Dumbbell size={20} className="text-primary" />
+                  <h3 className="font-display font-bold text-lg">專長</h3>
+                </div>
+                <ul className="space-y-1.5 text-sm text-muted">
+                  <li>重量訓練</li>
+                  <li>健力週期化訓練</li>
+                  <li>舉重專項訓練</li>
+                  <li>運動按摩</li>
+                  <li>攀岩抱石</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

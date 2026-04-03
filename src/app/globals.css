@@ -40,3 +40,74 @@ body {
   color: var(--foreground);
   font-family: var(--font-body);
 }
+
+/* Expanding-fill CTA button */
+.cta-expand {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 2px solid var(--cta-color, var(--primary));
+  border-radius: 9999px;
+  padding: 0.5rem 0.5rem 0.5rem 1.75rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--cta-color, var(--primary));
+  background: transparent;
+  cursor: pointer;
+  transition: color 0.4s ease;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.cta-expand .cta-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  background: var(--cta-color, var(--primary));
+  color: white;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.4s ease;
+  flex-shrink: 0;
+}
+
+.cta-expand::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0.375rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  background: var(--cta-color, var(--primary));
+  transform: translateY(-50%);
+  transition: width 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+              height 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+              right 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+              border-radius 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+}
+
+.cta-expand:hover {
+  color: white;
+}
+
+.cta-expand:hover::before {
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  right: -2px;
+  border-radius: 9999px;
+}
+
+.cta-expand:hover .cta-icon {
+  transform: translateX(4px);
+}
+
+.cta-expand .cta-label {
+  position: relative;
+  z-index: 1;
+}
