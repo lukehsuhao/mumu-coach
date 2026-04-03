@@ -1,3 +1,5 @@
+import { newPosts } from "./blog-new-posts";
+
 export interface BlogCta {
   headline: string;
   description: string;
@@ -20,6 +22,7 @@ export interface BlogPost {
 
 // Sample posts — replace with real content later
 const posts: BlogPost[] = [
+  ...newPosts,
   {
     slug: "beginner-workout-guide",
     title: "健身新手必看：入門訓練完整指南",
