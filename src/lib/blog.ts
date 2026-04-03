@@ -49,7 +49,6 @@ const posts: BlogPost[] = [
       { id: "lower-body", text: "下半身動作", level: 3 },
       { id: "common-mistakes", text: "常見錯誤", level: 2 },
       { id: "summary", text: "總結", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "不確定從哪裡開始？讓教練帶你入門",
@@ -65,7 +64,7 @@ const posts: BlogPost[] = [
       <p>健身不只是為了好看的身材，更是一種投資自己健康的方式。規律的運動能幫助你：</p>
       <ul>
         <li>增強肌肉力量，改善日常生活品質</li>
-        <li>提升基礎代謝率，更有效管理體重</li>
+        <li>提升基礎代謝率，更有效管理<a href="/blog/fitness-fat-loss-complete-guide">體重</a></li>
         <li>改善心理健康，減緩壓力與焦慮</li>
         <li>增加骨密度，預防骨質疏鬆</li>
       </ul>
@@ -91,7 +90,7 @@ const posts: BlogPost[] = [
 
       <h3 id="lower-body">下半身動作</h3>
       <ul>
-        <li><strong>深蹲</strong>：腿部訓練之王，鍛鍊股四頭肌、臀部</li>
+        <li><strong><a href="/blog/squat-correct-form-complete-guide">深蹲</a></strong>：腿部訓練之王，鍛鍊股四頭肌、臀部</li>
         <li><strong>弓步蹲</strong>：訓練單腳穩定性與腿部肌力</li>
         <li><strong>臀橋</strong>：啟動臀部肌群的最佳動作</li>
       </ul>
@@ -108,13 +107,6 @@ const posts: BlogPost[] = [
       <h2 id="summary">總結</h2>
       <p>健身是一場馬拉松，不是短跑。保持耐心、維持一致性，你一定會看到改變。如果不確定動作是否正確，建議找一位專業教練指導，避免受傷。</p>
       <p>想要開始你的健身旅程嗎？歡迎聯繫牧牧教練，為你量身打造訓練計畫！</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南：教練帶你從零開始</a></li>
-        <li><a href="/blog/personal-trainer-vs-self-training">新手該請教練嗎？自主訓練 vs 私人教練完整比較</a></li>
-        <li><a href="/blog/nutrition-basics">健身飲食基礎：吃對了，訓練才有效</a></li>
-      </ul>
     `,
   },
   {
@@ -133,7 +125,6 @@ const posts: BlogPost[] = [
       { id: "third-trimester", text: "第三孕期（28-40 週）", level: 2 },
       { id: "precautions", text: "注意事項與禁忌", level: 2 },
       { id: "postpartum", text: "產後恢復", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "孕期運動不知道怎麼開始？牧牧教練陪你",
@@ -143,7 +134,7 @@ const posts: BlogPost[] = [
       variant: "instagram",
     },
     content: `
-      <p>很多準媽媽在懷孕後都會擔心：「我還能運動嗎？」答案是肯定的！適當的孕期運動不僅安全，還對媽媽和寶寶都有許多好處。</p>
+      <p>很多準媽媽在懷孕後都會擔心：「我還能運動嗎？」答案是肯定的！適當的<a href="/blog/pregnancy-weight-training-safety">孕期運動</a>不僅安全，還對媽媽和寶寶都有許多好處。</p>
 
       <h2 id="can-exercise">孕期可以運動嗎？</h2>
       <p>根據美國婦產科學會（ACOG）的建議，在沒有醫療禁忌的情況下，孕婦應該每週進行至少 150 分鐘的中等強度有氧運動。當然，開始任何運動計畫前，請先諮詢你的產科醫師。</p>
@@ -155,7 +146,7 @@ const posts: BlogPost[] = [
         <li>降低妊娠糖尿病風險</li>
         <li>改善睡眠品質</li>
         <li>為生產儲備體力</li>
-        <li>加速產後恢復</li>
+        <li>加速<a href="/blog/postpartum-recovery-training-guide">產後恢復</a></li>
       </ul>
 
       <h2 id="first-trimester">第一孕期（1-12 週）</h2>
@@ -169,7 +160,7 @@ const posts: BlogPost[] = [
       <h2 id="second-trimester">第二孕期（13-27 週）</h2>
       <p>通常是孕期中最舒適的階段，可以適度增加運動強度：</p>
       <ul>
-        <li>肌力訓練：使用適當重量，避免仰臥姿勢</li>
+        <li><a href="/blog/advanced-core-training-guide">肌力訓練</a>：使用適當重量，避免仰臥姿勢</li>
         <li>骨盆底肌運動：為生產做準備</li>
         <li>低衝擊有氧：飛輪、橢圓機</li>
       </ul>
@@ -194,13 +185,6 @@ const posts: BlogPost[] = [
       <h2 id="postpartum">產後恢復</h2>
       <p>產後恢復運動同樣重要。一般自然產後 4-6 週、剖腹產後 6-8 週可以開始輕度運動，但務必先獲得醫師許可。</p>
       <p>牧牧教練擁有豐富的孕婦健身指導經驗，從孕期到產後都能給你最專業的陪伴。歡迎私訊預約諮詢！</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/pregnancy-weight-training-safety">孕期可以重訓嗎？安全強度與禁忌動作完整解析</a></li>
-        <li><a href="/blog/postpartum-recovery-training-guide">產後恢復訓練完整指南</a></li>
-        <li><a href="/blog/women-weight-training-myths">女生重訓會變金剛芭比嗎？</a></li>
-      </ul>
     `,
   },
   {
@@ -219,7 +203,6 @@ const posts: BlogPost[] = [
       { id: "fats", text: "脂肪", level: 3 },
       { id: "meal-timing", text: "進食時機", level: 2 },
       { id: "tips", text: "實用飲食建議", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想要專屬你的飲食規劃？",
@@ -232,7 +215,7 @@ const posts: BlogPost[] = [
       <p>常聽人說「七分吃三分練」，這句話雖然不完全精確，但足以說明飲食在健身中的重要性。再好的訓練計畫，如果沒有正確的飲食搭配，效果也會大打折扣。</p>
 
       <h2 id="importance">飲食為什麼重要？</h2>
-      <p>食物是身體的燃料。訓練提供刺激，而營養提供修復和生長的原料。無論你的目標是增肌、減脂，還是提升體能，飲食都扮演關鍵角色。</p>
+      <p>食物是身體的燃料。訓練提供刺激，而營養提供修復和生長的原料。無論你的目標是<a href="/blog/muscle-building-diet-guide">增肌</a>、<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>，還是提升體能，飲食都扮演關鍵角色。</p>
 
       <h2 id="macros">三大營養素</h2>
       <p>了解三大營養素的功能，是建立正確飲食習慣的第一步。</p>
@@ -262,13 +245,6 @@ const posts: BlogPost[] = [
         <li>準備便當，減少外食的不確定性</li>
       </ol>
       <p>飲食調整是一個漸進的過程，不需要一次到位。想要更個人化的飲食建議，歡迎聯繫牧牧教練！</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？教練的完整營養攻略</a></li>
-        <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略：超商、自助餐怎麼吃不爆卡</a></li>
-        <li><a href="/blog/pre-post-workout-nutrition-timing">運動前後怎麼吃？最佳飲食時機指南</a></li>
-      </ul>
     `,
   },
   {
@@ -303,7 +279,6 @@ const posts: BlogPost[] = [
       { id: "maintenance", text: "如何維持減脂成果不復胖？", level: 2 },
       { id: "faq", text: "常見問題 FAQ", level: 2 },
       { id: "conclusion", text: "結論：開始你的科學減脂之路", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "準備好開始科學減脂了嗎？",
@@ -355,7 +330,7 @@ const posts: BlogPost[] = [
 
       <h3 id="weight-training">重訓為什麼是減脂神器？</h3>
       <p>很多人不知道重訓對減脂有多重要。2025 年 <em>BMJ</em> 的統合分析（25 項 RCT、1,608 人）結論寫得很清楚：<strong>重訓搭配飲食控制，脂肪掉得多、肌肉留得住</strong>。</p>
-      <p>同年 <em>Frontiers in Endocrinology</em> 的數據更誇張：<strong>重訓組每減 1 公斤體重，裡面有 1.1 公斤是脂肪</strong>——超過 100% 代表他們同時還增肌了。對比純節食組，每減 1 公斤就有 0.25 公斤是肌肉，差很多。</p>
+      <p>同年 <em>Frontiers in Endocrinology</em> 的數據更誇張：<strong>重訓組每減 1 公斤體重，裡面有 1.1 公斤是脂肪</strong>——超過 100% 代表他們同時還<a href="/blog/muscle-building-diet-guide">增肌</a>了。對比純節食組，每減 1 公斤就有 0.25 公斤是肌肉，差很多。</p>
       <p>重訓還有個有氧比不上的東西：<strong>EPOC 效應</strong>。高強度重訓做完，代謝率可以升高 9%，而且持續 72 小時。等於你練完之後三天，身體都在多燒熱量。我帶課時觀察到，學員做完重訓隔天，不用特別少吃，體重通常也會往下掉一點。</p>
 
       <h3 id="hiit-vs-steady">HIIT vs 一般有氧哪個好？</h3>
@@ -373,7 +348,7 @@ const posts: BlogPost[] = [
       <ul>
         <li><strong>週一</strong>：上肢重訓（胸、肩、三頭）45-60 分鐘</li>
         <li><strong>週二</strong>：有氧訓練（快走或騎單車）40 分鐘 + 核心 15 分鐘</li>
-        <li><strong>週三</strong>：下肢重訓（深蹲、硬舉、腿推）45-60 分鐘</li>
+        <li><strong>週三</strong>：下肢重訓（<a href="/blog/squat-correct-form-complete-guide">深蹲</a>、<a href="/blog/deadlift-complete-guide">硬舉</a>、腿推）45-60 分鐘</li>
         <li><strong>週四</strong>：恢復日——散步 30 分鐘、拉筋或瑜伽</li>
         <li><strong>週五</strong>：全身重訓或 HIIT（20 分鐘循環訓練）</li>
         <li><strong>週六</strong>：有氧訓練 45-60 分鐘（爬山、游泳、騎車）</li>
@@ -499,13 +474,6 @@ const posts: BlogPost[] = [
       </ul>
       <p>我帶過的學員，能成功維持的人有個共同點：他們不是靠意志力硬撐，而是真的理解為什麼要這樣做，然後把它變成習慣。</p>
       <p>不用想太多。今天就選一件事開始：多吃一份蛋白質、去快走 30 分鐘、或是今晚早點睡。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略：超商、自助餐怎麼吃不爆卡</a></li>
-        <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？身體重組完整攻略</a></li>
-        <li><a href="/blog/intermittent-fasting-guide-science-based">間歇性斷食真的有效嗎？</a></li>
-      </ul>
     `,
   },
 ];

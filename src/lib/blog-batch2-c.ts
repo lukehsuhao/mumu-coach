@@ -25,7 +25,6 @@ export const batchC: BlogPost[] = [
       { id: "tracking-tips", text: "不想算熱量？用手掌估算法", level: 2 },
       { id: "common-mistakes", text: "減脂外食最常踩的 5 個坑", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "外食族也想減脂成功？讓教練幫你規劃",
@@ -36,7 +35,7 @@ export const batchC: BlogPost[] = [
       variant: "line",
     },
     content: `
-<p>你是不是也有這種經驗——決心要減脂，結果打開冰箱空空的、下班累到只想叫外賣，然後又跟自己說「明天再開始」？</p>
+<p>你是不是也有這種經驗——決心要<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>，結果打開冰箱空空的、下班累到只想叫外賣，然後又跟自己說「明天再開始」？</p>
 <p>我帶過的學員，超過七成是外食族。他們最後都成功減脂了，而且幾乎沒有人是靠自己煮飯瘦下來的。關鍵不在「自己煮 vs 外食」，而在你有沒有選對東西吃。</p>
 <p>這篇文章，我會把超商、自助餐、甚至小吃攤的實戰選法一次講清楚。不用帶秤、不用帶便當，照著做就能穩穩製造熱量缺口。</p>
 
@@ -182,13 +181,6 @@ export const batchC: BlogPost[] = [
 <p>如果只吃泡麵跟麵包，當然不均衡。但如果你按照上面的組合來選——有蛋白質、有蔬菜、有適量碳水，營養其實很完整。現在超商的即食食品品質比十年前好太多了。</p>
 
 <p>減脂不需要你徹底改變生活方式。找到適合你日常作息的吃法，然後持續做，比任何極端飲食法都有效。如果你不確定自己的熱量目標應該設多少，或者不知道怎麼在你常吃的餐廳裡做出更好的選擇，歡迎來聊聊。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-<li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
-<li><a href="/blog/nutrition-basics">健身飲食基礎：吃對了，訓練才有效</a></li>
-<li><a href="/blog/intermittent-fasting-guide-science-based">間歇性斷食真的有效嗎？</a></li>
-</ul>
 `,
   },
   {
@@ -218,7 +210,6 @@ export const batchC: BlogPost[] = [
       { id: "common-myths", text: "運動飲食常見迷思", level: 2 },
       { id: "sample-schedules", text: "不同練習時段的飲食時間表", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想知道你的訓練飲食怎麼搭最有效？",
@@ -366,7 +357,7 @@ export const batchC: BlogPost[] = [
 <p>這個說法過度簡化了。脂肪確實會減慢消化速度，但不會「阻礙」蛋白質吸收。全蛋（含蛋黃、含脂肪）的蛋白質利用率甚至比純蛋白更高。訓練後正常吃飯，不用刻意避開脂肪。</p>
 
 <p><strong>迷思 4：減脂期訓練後不吃碳水比較好</strong></p>
-<p>就算在減脂期，訓練後也應該攝取碳水。你可以把一天中比較多的碳水分配到訓練前後，其他餐少一點。這樣既能支持訓練表現，又不會超出每日總熱量。</p>
+<p>就算在<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>期，訓練後也應該攝取碳水。你可以把一天中比較多的碳水分配到訓練前後，其他餐少一點。這樣既能支持訓練表現，又不會超出每日總熱量。</p>
 
 <p><strong>迷思 5：BCAA 可以取代正餐</strong></p>
 <p>BCAA（支鏈胺基酸）的研究近年來被重新審視。如果你每天已經攝取足夠的蛋白質（1.6-2.2g/kg），額外補充 BCAA 幾乎沒有增益效果。把買 BCAA 的錢拿去買雞胸肉，CP 值高得多。</p>
@@ -415,13 +406,6 @@ export const batchC: BlogPost[] = [
 <p>超商賣的那種高蛋白飲品（像是豆漿、蛋白飲等）當然可以。看一下營養標示，蛋白質含量跟糖分含量就知道值不值得買。有些看起來是「高蛋白」，但糖加了不少，要注意。真正方便又實惠的還是自己沖乳清蛋白粉。</p>
 
 <p>運動飲食這件事，核心就兩個字：<strong>簡單</strong>。不用把它搞得很複雜，先把每天的總蛋白質量顧好，然後在訓練前後各安排一頓像樣的餐，你就贏過 80% 的人了。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-<li><a href="/blog/post-workout-nutrition-guide">運動後吃什麼？教練的營養補充完整攻略</a></li>
-<li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
-<li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
-</ul>
 `,
   },
   {
@@ -451,7 +435,6 @@ export const batchC: BlogPost[] = [
       { id: "realistic-expectations", text: "合理的期待", level: 2 },
       { id: "recomp-vs-bulk-cut", text: "身體重組 vs 增肌期＋減脂期", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想要一邊練一邊瘦？教練幫你規劃",
@@ -462,7 +445,7 @@ export const batchC: BlogPost[] = [
       variant: "line",
     },
     content: `
-<p>「教練，我想增肌又想減脂，可以同時嗎？」</p>
+<p>「教練，我想增肌又想<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>，可以同時嗎？」</p>
 <p>這大概是我被問過最多次的問題，沒有之一。答案是——<strong>可以，但有條件</strong>。不是每個人都適合，也不是在任何階段都能做到。</p>
 <p>這篇文章我會把身體重組（Body Recomposition）的科學原理、適用對象、飲食跟訓練策略講清楚。看完你就知道自己適不適合，以及要怎麼做。</p>
 
@@ -540,7 +523,7 @@ export const batchC: BlogPost[] = [
 <p>根據 Schoenfeld 等人（2017）的研究，每個肌群每週 10-20 組的訓練量（sets）對肌肥大最有效。身體重組期間，建議：</p>
 <ul>
 <li>每週訓練 3-5 天</li>
-<li>以多關節複合動作為主（深蹲、硬舉、臥推、划船、肩推）</li>
+<li>以多關節複合動作為主（<a href="/blog/squat-correct-form-complete-guide">深蹲</a>、<a href="/blog/deadlift-complete-guide">硬舉</a>、臥推、划船、肩推）</li>
 <li>每個動作 3-4 組，每組 6-12 次</li>
 <li>搭配一些單關節動作做補強</li>
 </ul>
@@ -604,13 +587,6 @@ export const batchC: BlogPost[] = [
 <p>非常適合。研究顯示女性在身體重組方面的反應跟男性一樣好，甚至有些研究發現女性在能量缺口中保留肌肉的能力略優於男性。不要怕練重、不要怕吃蛋白質——你不會變「金剛芭比」的，那需要非常極端的訓練量跟飲食。</p>
 
 <p>身體重組不是捷徑，但對很多人來說，它是一條更舒服、更可持續的路。把蛋白質吃夠、認真訓練、睡好覺，給身體時間去改變。你會在某一天照鏡子的時候，突然發現——「欸，我好像不一樣了。」</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-<li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
-<li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
-<li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
-</ul>
 `,
   },
   {
@@ -640,7 +616,6 @@ export const batchC: BlogPost[] = [
       { id: "common-mistakes", text: "筋膜放鬆常見錯誤", level: 2 },
       { id: "when-to-see-a-pro", text: "什麼時候該找專業的來", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "身體卡卡的？讓教練幫你鬆一下",
@@ -651,7 +626,7 @@ export const batchC: BlogPost[] = [
       variant: "line",
     },
     content: `
-<p>每次練完深蹲，大腿前側硬得像石頭？肩膀總覺得有個點怎麼轉都不對？跑步跑到小腿脛前痠到不行？</p>
+<p>每次練完<a href="/blog/squat-correct-form-complete-guide">深蹲</a>，大腿前側硬得像石頭？肩膀總覺得有個點怎麼轉都不對？跑步跑到小腿脛前痠到不行？</p>
 <p>這些問題，十之八九跟你的筋膜狀態有關。</p>
 <p>我自己除了是 ACE-CPT 認證教練，也持有<strong>工具式軟組織保健技術員證照</strong>，平常帶學員訓練之外，也會用筋膜刀跟徒手按摩幫他們做軟組織放鬆。這篇文章，我想把運動按摩跟筋膜放鬆的觀念好好梳理一遍，讓你知道它是什麼、怎麼做、什麼時候做。</p>
 
@@ -709,7 +684,7 @@ export const batchC: BlogPost[] = [
 <h2 id="when-to-do-it">什麼時候該做筋膜放鬆</h2>
 
 <h3 id="before-training">訓練前</h3>
-<p>訓練前做<strong>短時間</strong>（每個肌群 30-60 秒）的滾筒放鬆，可以暫時增加關節活動度，讓你在深蹲、硬舉等動作中有更好的動作品質。但不要滾太久——超過 2 分鐘的持續按壓可能會暫時降低肌肉的收縮力。</p>
+<p>訓練前做<strong>短時間</strong>（每個肌群 30-60 秒）的滾筒放鬆，可以暫時增加關節活動度，讓你在深蹲、<a href="/blog/deadlift-complete-guide">硬舉</a>等動作中有更好的動作品質。但不要滾太久——超過 2 分鐘的持續按壓可能會暫時降低肌肉的收縮力。</p>
 <p>訓練前的滾筒放鬆要搭配動態伸展一起做，效果更好。</p>
 
 <h3 id="after-training">訓練後</h3>
@@ -771,13 +746,6 @@ export const batchC: BlogPost[] = [
 <p>不行。筋膜放鬆可以作為暖身的一部分，但不能取代動態伸展跟漸進式的重量暖身。正確的順序是：短時間滾筒放鬆 → 動態伸展 → 漸進式重量暖身 → 正式訓練。</p>
 
 <p>筋膜放鬆不是什麼神秘的東西。它就是照顧你的身體，讓你的組織維持在好的狀態，這樣你才能練得更好、恢復得更快、受傷的風險更低。把它當成刷牙一樣的日常習慣——每天花 10 分鐘，你的身體會感謝你的。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-<li><a href="/blog/shoulder-pain-corrective-exercise-guide">肩膀痛還能練嗎？</a></li>
-<li><a href="/blog/knee-pain-squat-prevention-guide">膝蓋痛還能深蹲嗎？</a></li>
-<li><a href="/blog/muscle-soreness-training-effectiveness-truth">肌肉痠痛代表有練到嗎？</a></li>
-</ul>
 `,
   },
   {
@@ -809,7 +777,6 @@ export const batchC: BlogPost[] = [
       { id: "safe-alternatives", text: "安全的替代動作", level: 3 },
       { id: "when-to-see-doctor", text: "什麼時候該看醫生", level: 2 },
       { id: "faq", text: "常見問題", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "肩膀不舒服又想繼續練？教練幫你找出路",
@@ -820,7 +787,7 @@ export const batchC: BlogPost[] = [
       variant: "line",
     },
     content: `
-<p>「教練，我臥推的時候肩膀前面會痛，是不是受傷了？」「手舉過頭就不舒服，肩推還能做嗎？」</p>
+<p>「教練，我<a href="/blog/bench-press-form-guide">臥推</a>的時候肩膀前面會痛，是不是受傷了？」「手舉過頭就不舒服，肩推還能做嗎？」</p>
 <p>肩膀問題大概是健身房裡最普遍的困擾。我帶過的學員中，至少有三分之一在某個時間點跟我反應過肩膀不適。但好消息是——大部分的肩膀問題不需要完全停練，只需要調整訓練方式，加上正確的矯正運動，就能改善。</p>
 
 <h2 id="shoulder-pain-dont-panic">肩膀痛不代表你要停練</h2>
@@ -984,13 +951,6 @@ export const batchC: BlogPost[] = [
 <p>旋轉肌訓練用輕到中等阻力就夠了。大部分人用紅色或綠色（阻力約 5-15 磅）的彈力帶就很有感。如果你可以輕鬆做 20 次以上，再換重一級。</p>
 
 <p>肩膀問題不是世界末日。大部分的情況都可以透過調整訓練＋矯正運動來改善。重要的是不要忽視它，也不要因為害怕就什麼都不練。找到安全的動作範圍，持續訓練，同時有系統地強化弱點——你的肩膀會比以前更穩、更強。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-<li><a href="/blog/bench-press-form-guide">臥推正確姿勢全解析</a></li>
-<li><a href="/blog/sports-massage-myofascial-release-guide">運動按摩是什麼？筋膜放鬆完整指南</a></li>
-<li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
-</ul>
 `,
   },
 ];

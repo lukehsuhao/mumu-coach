@@ -31,7 +31,6 @@ export const batchA: BlogPost[] = [
       { id: "training-program", text: "8 週硬舉訓練菜單", level: 2 },
       { id: "warm-up-routine", text: "硬舉前的暖身流程", level: 2 },
       { id: "faq", text: "學員常問的問題", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想把硬舉練好但怕受傷？",
@@ -98,7 +97,7 @@ export const batchA: BlogPost[] = [
       <p>槓鈴一旦飄離身體，你的下背就要花更多力氣來穩定，腰痠就是這樣來的。修正方式：想像你在「刮腿毛」，槓鈴全程貼著身體走。穿長褲或護膝套可以減少摩擦。</p>
 
       <h3 id="mistake-squat-deadlift">把硬舉做成深蹲</h3>
-      <p>臀部蹲太低、膝蓋往前推太多——這不是硬舉，是深蹲拿著槓。硬舉是<strong>髖主導</strong>，不是膝主導。正確的起始位置，肩膀應該在槓鈴正上方或略前方，髖部高於膝蓋。</p>
+      <p>臀部蹲太低、膝蓋往前推太多——這不是硬舉，是<a href="/blog/squat-correct-form-complete-guide">深蹲</a>拿著槓。硬舉是<strong>髖主導</strong>，不是膝主導。正確的起始位置，肩膀應該在槓鈴正上方或略前方，髖部高於膝蓋。</p>
 
       <h3 id="mistake-hyperextend">鎖死時過度後仰</h3>
       <p>很多人拉到頂端時會刻意把腰往後彎，覺得這樣才算完成動作。其實這樣做對腰椎壓力很大。正確的鎖死：臀部夾緊、身體打直就夠了，像立正站好一樣。</p>
@@ -154,13 +153,6 @@ export const batchA: BlogPost[] = [
       <p>護腰帶不是拿來「保護腰」的，它的功能是讓你的腹內壓更有效率。我建議在重量超過 80% 1RM 時再使用，平常的訓練盡量靠自己的核心穩定。長期依賴護腰帶反而會讓核心變弱。</p>
       <p><strong>Q：硬舉完臀部沒感覺，都是腰在出力？</strong></p>
       <p>這代表你的臀部啟動有問題。在硬舉之前先做 2-3 組的臀橋或彈力帶蚌殼式，讓臀肌「醒過來」再開始拉。另外注意鎖死的時候要主動用力夾臀，不是靠腰把身體往後推。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？教練的正確姿勢完整教學</a></li>
-        <li><a href="/blog/bench-press-form-guide">臥推正確姿勢全解析</a></li>
-        <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
-      </ul>
     `,
   },
   {
@@ -189,7 +181,6 @@ export const batchA: BlogPost[] = [
       { id: "bench-variations", text: "臥推變化式與適用時機", level: 2 },
       { id: "bench-program", text: "臥推進步的訓練安排", level: 2 },
       { id: "shoulder-pain-fix", text: "臥推肩膀痛怎麼辦？", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "臥推卡關或肩膀不舒服？",
@@ -200,7 +191,7 @@ export const batchA: BlogPost[] = [
       variant: "line",
     },
     content: `
-      <p>你有沒有這種經驗：臥推做完，肩膀痛得要命，胸肌卻一點感覺都沒有？或是重量卡在某個數字，怎麼練都上不去？我帶學員臥推的時候，十個裡面有九個的設定是需要調整的。問題不在你不夠努力，而在一些很基礎的東西沒做對。</p>
+      <p>你有沒有這種經驗：臥推做完，<a href="/blog/shoulder-pain-corrective-exercise-guide">肩膀痛</a>得要命，胸肌卻一點感覺都沒有？或是重量卡在某個數字，怎麼練都上不去？我帶學員臥推的時候，十個裡面有九個的設定是需要調整的。問題不在你不夠努力，而在一些很基礎的東西沒做對。</p>
 
       <h2 id="bench-press-intro">臥推到底難在哪？</h2>
       <p>臥推看起來就是躺著把槓推上去，但它其實是一個<strong>全身性的動作</strong>。你的腳要踩穩、臀部要用力、核心要繃緊、肩胛要鎖好——這些東西只要有一個環節鬆掉，不是受傷就是卡關。</p>
@@ -210,7 +201,7 @@ export const batchA: BlogPost[] = [
       <p>我每次帶學員臥推，光設定就會花 3-5 分鐘。別嫌煩，這些時間花下去，你的臥推會脫胎換骨。</p>
 
       <h3 id="foot-position">腳的位置：地基決定一切</h3>
-      <p>雙腳要踩實地面，腳掌完全貼地（健力規則要求腳掌著地）。腳的位置有兩種流派：一種是腳往後收到臀部下方，這樣背弓會比較大；另一種是腳放比較前面，穩定性較高。新手我建議先用後者，等熟悉了再嘗試收腳。重點是<strong>雙腳要有往外推地板的張力</strong>，不是只是放在地上。</p>
+      <p>雙腳要踩實地面，腳掌完全貼地（<a href="/blog/powerlifting-beginner-guide">健力</a>規則要求腳掌著地）。腳的位置有兩種流派：一種是腳往後收到臀部下方，這樣背弓會比較大；另一種是腳放比較前面，穩定性較高。新手我建議先用後者，等熟悉了再嘗試收腳。重點是<strong>雙腳要有往外推地板的張力</strong>，不是只是放在地上。</p>
 
       <h3 id="back-arch">背部拱起：不是作弊，是保護肩膀</h3>
       <p>很多人看到健力選手的大背弓就說「這是作弊」。錯了。背弓有兩個重要功能：</p>
@@ -234,7 +225,7 @@ export const batchA: BlogPost[] = [
       <p>為什麼不是直線？因為肩關節的結構決定了在鎖死位置時，槓鈴要在肩膀正上方才最穩定。如果你強迫直線推，肩膀要承受額外的剪力。</p>
 
       <h2 id="breathing-technique">臥推的呼吸節奏</h2>
-      <p>跟硬舉一樣，臥推也要用 <strong>Valsalva 呼吸法</strong>：</p>
+      <p>跟<a href="/blog/deadlift-complete-guide">硬舉</a>一樣，臥推也要用 <strong>Valsalva 呼吸法</strong>：</p>
       <ul>
         <li>起槓前：深吸一口氣到腹腔</li>
         <li>下放過程：憋住氣，核心保持繃緊</li>
@@ -293,13 +284,6 @@ export const batchA: BlogPost[] = [
         <li><strong>檢查設定</strong>：九成的臥推肩痛來自於肩胛骨沒收好或手肘太開</li>
       </ul>
       <p>如果疼痛持續超過兩週沒有改善，建議去看運動醫學科或物理治療師，排除結構性的問題。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
-        <li><a href="/blog/shoulder-pain-corrective-exercise-guide">肩膀痛還能練嗎？常見肩關節問題與矯正運動</a></li>
-        <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
-      </ul>
     `,
   },
   {
@@ -326,7 +310,6 @@ export const batchA: BlogPost[] = [
       { id: "recovery-nutrition", text: "恢復與營養基礎", level: 2 },
       { id: "first-meet-tips", text: "第一場比賽的實用建議", level: 2 },
       { id: "taiwan-powerlifting", text: "台灣健力資源", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想踏進健力但不知道從何練起？",
@@ -337,7 +320,7 @@ export const batchA: BlogPost[] = [
       variant: "line",
     },
     content: `
-      <p>第一次聽到「健力」這個詞的時候，我朋友問我：「那是不是就是大力士比賽？搬石頭那種？」不是喔。健力是一個非常純粹的運動：深蹲、臥推、硬舉，三個動作，比誰舉得重。就這麼簡單，但也就這麼上癮。</p>
+      <p>第一次聽到「健力」這個詞的時候，我朋友問我：「那是不是就是大力士比賽？搬石頭那種？」不是喔。健力是一個非常純粹的運動：<a href="/blog/squat-correct-form-complete-guide">深蹲</a>、<a href="/blog/bench-press-form-guide">臥推</a>、<a href="/blog/deadlift-complete-guide">硬舉</a>，三個動作，比誰舉得重。就這麼簡單，但也就這麼上癮。</p>
       <p>如果你已經在健身房練了一段時間，開始覺得光是練好看不夠、想追求「真正的強」，那健力可能就是你的下一步。這篇會把你需要知道的東西一次講清楚。</p>
 
       <h2 id="what-is-powerlifting">健力是什麼？跟健美差在哪？</h2>
@@ -473,13 +456,6 @@ export const batchA: BlogPost[] = [
         <li><strong>線上社群</strong>：Facebook 有好幾個健力交流社團，可以找到訓練夥伴和比賽資訊</li>
         <li><strong>教練資源</strong>：找有健力比賽經驗的教練帶你比較有效率，因為比賽的細節光靠網路很難學完</li>
       </ul>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？教練的正確姿勢完整教學</a></li>
-        <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
-        <li><a href="/blog/periodization-training-guide">週期化訓練課表怎麼排？</a></li>
-      </ul>
     `,
   },
   {
@@ -510,7 +486,6 @@ export const batchA: BlogPost[] = [
       { id: "which-model", text: "哪種模型適合你？", level: 2 },
       { id: "deload-week", text: "減量週怎麼安排", level: 2 },
       { id: "common-mistakes-programming", text: "課表安排的常見地雷", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "不知道怎麼安排自己的課表？",
@@ -521,7 +496,7 @@ export const batchA: BlogPost[] = [
       variant: "line",
     },
     content: `
-      <p>你是不是也有過這種情況：剛開始健身的時候進步超快，三個月過去深蹲從空槓練到 80 公斤，結果再過三個月⋯⋯還是 80 公斤？甚至開始倒退？</p>
+      <p>你是不是也有過這種情況：剛開始健身的時候進步超快，三個月過去<a href="/blog/squat-correct-form-complete-guide">深蹲</a>從空槓練到 80 公斤，結果再過三個月⋯⋯還是 80 公斤？甚至開始倒退？</p>
       <p>這不是你偷懶，也不是你天分不夠。問題出在你的課表。或者更精確地說，你可能根本沒有「課表」——只是每天去健身房隨性練。週期化訓練就是解決這個問題的方法。</p>
 
       <h2 id="why-periodization">為什麼你需要週期化？</h2>
@@ -591,7 +566,7 @@ export const batchA: BlogPost[] = [
       <p>有兩種常見做法：</p>
       <ul>
         <li><strong>每日波動（DUP, Daily Undulating Periodization）</strong>：同一週裡，每次練同一個動作都用不同的強度和次數。例如週一練深蹲 5x5（力量），週四練深蹲 3x10（肌肥大）</li>
-        <li><strong>每週波動（WUP, Weekly Undulating Periodization）</strong>：每週的訓練重點不同。第一週主打肌肥大，第二週主打力量，第三週主打爆發力，然後循環</li>
+        <li><strong>每週波動（WUP, Weekly Undulating Periodization）</strong>：每週的訓練重點不同。第一週主打肌肥大，第二週主打力量，第三週主打<a href="/blog/explosive-power-training-guide">爆發力</a>，然後循環</li>
       </ul>
 
       <h3 id="dup-example">課表範例</h3>
@@ -672,13 +647,6 @@ export const batchA: BlogPost[] = [
         <li><strong>只看數字不看品質</strong>：重量加上去了但動作走樣了，那不叫進步。在加重之前，確保你的技術是穩定的</li>
         <li><strong>沒有記錄</strong>：不做訓練紀錄就不可能做好週期化。每次練完花 2 分鐘記下重量、組數、次數、RPE，這些數據是你未來安排課表的基礎</li>
       </ul>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
-        <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
-        <li><a href="/blog/muscle-soreness-training-effectiveness-truth">肌肉痠痛代表有練到嗎？</a></li>
-      </ul>
     `,
   },
   {
@@ -711,7 +679,6 @@ export const batchA: BlogPost[] = [
       { id: "advanced-program", text: "進階版（一週 5 天）", level: 3 },
       { id: "progression-tips", text: "居家訓練怎麼漸進？", level: 2 },
       { id: "common-questions", text: "居家啞鈴訓練 Q&A", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "居家訓練也想有教練帶？",
@@ -761,7 +728,7 @@ export const batchA: BlogPost[] = [
       <h2 id="upper-body-exercises">上半身動作清單</h2>
 
       <h3 id="db-bench-press">啞鈴臥推（胸）</h3>
-      <p>在家沒有臥推椅？地板臥推（Floor Press）也行，動作幅度小一點但對肩膀更安全。如果有一張穩固的椅子或板凳，可以當作臥推椅使用。</p>
+      <p>在家沒有<a href="/blog/bench-press-form-guide">臥推</a>椅？地板臥推（Floor Press）也行，動作幅度小一點但對肩膀更安全。如果有一張穩固的椅子或板凳，可以當作臥推椅使用。</p>
       <p><strong>動作要點</strong>：啞鈴下放到上臂碰到地面（地板臥推）或胸口旁邊（有椅子），手肘角度 45-60 度，推起來的時候啞鈴微微靠攏。做 3-4 組、8-12 下。</p>
 
       <h3 id="db-row">啞鈴划船（背）</h3>
@@ -782,7 +749,7 @@ export const batchA: BlogPost[] = [
       <h2 id="lower-body-exercises">下半身動作清單</h2>
 
       <h3 id="db-goblet-squat">高腳杯深蹲</h3>
-      <p>雙手捧著啞鈴的一端，靠在胸前，然後正常做深蹲。這是居家深蹲的最佳選擇，因為前負荷的位置會自然幫你維持軀幹直立、不容易前傾。</p>
+      <p>雙手捧著啞鈴的一端，靠在胸前，然後正常做<a href="/blog/squat-correct-form-complete-guide">深蹲</a>。這是居家深蹲的最佳選擇，因為前負荷的位置會自然幫你維持軀幹直立、不容易前傾。</p>
       <p><strong>動作要點</strong>：腳站略比肩寬，腳尖微外轉。蹲到大腿至少平行地面，膝蓋對齊腳尖方向。手肘在底端可以輕碰膝蓋內側，幫助打開髖關節。3-4 組、10-15 下。</p>
 
       <h3 id="db-rdl">啞鈴 RDL</h3>
@@ -921,13 +888,6 @@ export const batchA: BlogPost[] = [
       <p>一定要。不管在哪裡練都要暖身。在家的暖身可以簡單一點：3-5 分鐘的關節繞環 + 輕重量或徒手做第一個動作的模式就夠了。千萬不要冷啟動就開始做大重量。</p>
       <p><strong>Q：住公寓怕吵到鄰居怎麼辦？</strong></p>
       <p>這是很實際的問題。啞鈴不要放地上摔，放下的時候控制好速度。在地板上鋪一塊厚的瑜伽墊或健身地墊可以有效減少噪音和震動。避免做跳躍類的動作，用靜態的動作替代就好。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
-        <li><a href="/blog/office-worker-exercise-plan">久坐上班族的運動計畫</a></li>
-        <li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
-      </ul>
     `,
   },
 ];

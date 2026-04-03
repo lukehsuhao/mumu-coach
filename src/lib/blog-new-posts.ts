@@ -42,8 +42,7 @@ export const newPosts: BlogPost[] = [
       { id: "一天要吃幾餐才能有效增肌", text: "一天要吃幾餐才能有效增肌？", level: 3 },
       { id: "外食族怎麼吃才能增肌", text: "外食族怎麼吃才能增肌？", level: 3 },
       { id: "增肌可以同時減脂嗎", text: "增肌可以同時減脂嗎？", level: 3 },
-      { id: "結論增肌飲食沒有秘密只有執行", text: "結論：增肌飲食沒有秘密，只有執行", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論增肌飲食沒有秘密只有執行", text: "結論：增肌飲食沒有秘密，只有執行", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -56,7 +55,7 @@ export const newPosts: BlogPost[] = [
 <p>增肌飲食的核心很簡單：每公斤體重攝取 1.6-2.2g 蛋白質、維持溫和熱量盈餘（+10-20% TDEE），並把蛋白質均勻分配到 4 餐。這三件事做到，增肌速度就比大多數人快了。</p>
 <p>帶了好幾年學員，發現大家踩的坑幾乎一樣——不是吃太少蛋白質，就是以為要狂吃才能長肌肉，或是花大錢買一堆補充品。這篇文章我想把真正有研究支持的東西說清楚，讓你少走冤枉路。</p>
 <p><strong>增肌飲食定義</strong><br></p>
-<p>增肌飲食（muscle-building diet）是指在維持足夠熱量的前提下，透過提高蛋白質攝取量、適當熱量盈餘，配合阻力訓練來促進肌肉蛋白質合成（MPS）的飲食策略。目標是增加淨體重（lean mass），而非單純讓體重上升。</p>
+<p>增肌飲食（muscle-building diet）是指在維持足夠熱量的前提下，透過提高蛋白質攝取量、適當熱量盈餘，配合<a href="/blog/deadlift-complete-guide">阻力訓練</a>來促進肌肉蛋白質合成（MPS）的飲食策略。目標是增加淨體重（lean mass），而非單純讓體重上升。</p>
 <h2 id="什麼是增肌飲食跟一般飲食差在哪">什麼是增肌飲食？跟一般飲食差在哪？</h2>
 <p>增肌飲食跟一般飲食最大的差別，在於蛋白質的目標量不一樣。一般成人每公斤體重吃 0.8g 蛋白質就夠維持，但要增肌，研究建議要到 1.6-2.2g/kg。70kg 的人，增肌期每天需要 112-154g 蛋白質——大概是一般飲食的兩倍。</p>
 <p>很多人把增肌跟增重搞混。增重只是讓體重數字上升，脂肪跟肌肉都算。增肌指的是增加肌肉量，同時盡量不增加多餘脂肪。所以吃法完全不一樣——增重可以亂吃，增肌要精準吃。</p>
@@ -90,7 +89,7 @@ export const newPosts: BlogPost[] = [
 <p>溫和就好。盈餘 +10-20% TDEE（大約每天多 250-500 大卡）是最有效率的範圍。</p>
 <p>2024 年 Clinical Nutrition 的隨機對照試驗直接說清楚了：大幅熱量盈餘（>500 kcal/天）增加的主要是脂肪，不是肌肉。肌肉的生長速度本來就有上限，吃更多只是讓脂肪一起跟著長。所以「吃越多長越多」是錯的。</p>
 <h3 id="乾淨增肌-vs-髒增肌">乾淨增肌 vs 髒增肌</h3>
-<p><strong>乾淨增肌（Clean Bulk）</strong>：溫和盈餘 +10-20%，食物來源以原型食物為主，肌肉增加的同時脂肪盡量不增。優點是體態維持得比較好，減脂期壓力小。</p>
+<p><strong>乾淨增肌（Clean Bulk）</strong>：溫和盈餘 +10-20%，食物來源以原型食物為主，肌肉增加的同時脂肪盡量不增。優點是體態維持得比較好，<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>期壓力小。</p>
 <p><strong>髒增肌（Dirty Bulk）</strong>：大量吃，不管食物種類，熱量盈餘可以到 +30-50%。肌肉確實長得快一點，但脂肪也長很多，之後還要花更長時間減脂。</p>
 <p>我自己跑過一次髒增肌，體重從 72kg 漲到 84kg，練了五個月。但後來減脂期搞了整整七個月，得不償失。現在我一律推薦學員做乾淨增肌。</p>
 <h2 id="三大營養素怎麼分配">三大營養素怎麼分配？</h2>
@@ -431,7 +430,7 @@ export const newPosts: BlogPost[] = [
 <ul>
 <li>肌酸（每天 3-5g，便宜又有效）</li>
 <li>記錄飲食（至少前 4-6 週，確認有達到蛋白質目標）</li>
-<li>睡眠（7-9 小時，生長激素在睡眠中分泌）</li>
+<li><a href="/blog/sleep-muscle-growth-guide">睡眠</a>（7-9 小時，生長激素在睡眠中分泌）</li>
 </ul>
 <p>增肌最難的不是找到對的方法，而是持續執行。飲食計畫再完美，只做一週也沒用。先把蛋白質攝取搞定，熱量跟上，其他細節慢慢調整。三個月之後回頭看，你會發現改變比你想的大。</p>
 <p>有問題歡迎留言，我盡量一一回覆。</p>
@@ -446,13 +445,6 @@ export const newPosts: BlogPost[] = [
 <li>Clinical Nutrition RCT (2024). Energy surplus and lean mass accretion during resistance training.</li>
 <li>MDPI Nutrients (2025). Nutrient timing and muscle protein synthesis: systematic review.</li>
 <li>PMC Meta-analysis (2025). Creatine supplementation and resistance training: 23-study analysis.</li>
-</ul>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/pre-post-workout-nutrition-timing">運動前後怎麼吃？</a></li>
-  <li><a href="/blog/high-protein-kidney-myth">蛋白質吃太多會傷腎嗎？</a></li>
-  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
 </ul>
     `,
   },  {
@@ -485,8 +477,7 @@ export const newPosts: BlogPost[] = [
       { id: "錯誤-7飲食完全不管", text: "錯誤 7：飲食完全不管", level: 3 },
       { id: "要請教練嗎自己練可以嗎", text: "要請教練嗎？自己練可以嗎？", level: 2 },
       { id: "faq新手重訓最常問的-8-個問題", text: "FAQ：新手重訓最常問的 8 個問題", level: 2 },
-      { id: "結論開始永遠比完美更重要", text: "結論：開始，永遠比完美更重要", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論開始永遠比完美更重要", text: "結論：開始，永遠比完美更重要", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -503,13 +494,13 @@ export const newPosts: BlogPost[] = [
 <p>我做教練十幾年了，每個月都有人問我同一個問題：「教練，我想開始重訓，但真的不知道從哪裡開始。」</p>
 <p>我懂那種感覺。健身房裡器材一堆，大家好像都知道自己在幹嘛，只有你站在那邊不知所措。這篇文章就是我想給每一個站在那個位置的人看的。不賣關子，直接告訴你該知道的事。</p>
 <h2 id="重訓是什麼為什麼每個人都該練">重訓是什麼？為什麼每個人都該練？</h2>
-<p>重量訓練的核心是「讓肌肉對抗阻力」。你的肌肉纖維在負荷下產生微小損傷，休息後修復、變得更強壯，這就是訓練的原理。</p>
+<p>重量訓練的<a href="/blog/advanced-core-training-guide">核心</a>是「讓肌肉對抗阻力」。你的肌肉纖維在負荷下產生微小損傷，休息後修復、變得更強壯，這就是訓練的原理。</p>
 <p>但「每個人都應該練」這話不是我瞎說的。2022 年發表在 <em>British Journal of Sports Medicine</em> 的系統性回顧研究（分析超過 180 萬人的數據）發現，規律進行阻力訓練的人，<strong>全因死亡率降低 15%，心血管疾病死亡率降低 19%</strong>。每週只要練 60 分鐘左右，就能達到最大保護效果。練更多當然好，但即使很忙，每週一個小時也值得。</p>
 <p>還有一個你一定要知道的數字：人類從 30 歲起每十年自然流失約 3-8% 的肌肉量（<em>Journal of Cachexia, Sarcopenia and Muscle</em>, 2010），60 歲之後速度更快。這叫做「肌少症」，是老年人跌倒、失能的主要原因。重訓是目前已知最有效延緩肌肉流失的方法，沒有之一。</p>
 <p>除了長壽，重訓對日常生活的好處也很具體：搬東西不那麼費力、代謝變好不容易胖、骨密度增加、姿勢改善、睡眠品質提升。我帶過的學員裡，不少人說練了幾個月之後，以前覺得理所當然的腰痠背痛消失了，這才是讓他們繼續練下去的動力。</p>
 <h2 id="新手該用機械式還是自由重量">新手該用機械式還是自由重量？</h2>
 <p><strong>直接答案：先從機械式器材開始，4-6 週後逐步引入自由重量。兩者都要學，但順序很重要。</strong></p>
-<p>這個問題我被問過幾百次。很多新手進健身房，看到別人在練深蹲、硬舉，馬上就想跟著做，結果動作做得亂七八糟，輕則練到錯誤的肌群，重則受傷。</p>
+<p>這個問題我被問過幾百次。很多新手進健身房，看到別人在練<a href="/blog/squat-correct-form-complete-guide">深蹲</a>、<a href="/blog/deadlift-complete-guide">硬舉</a>，馬上就想跟著做，結果動作做得亂七八糟，輕則練到錯誤的肌群，重則受傷。</p>
 <p>機械式器材的軌道固定，你不需要花力氣穩定重量，可以專心感受目標肌群的收縮。這對新手很重要——你要先「找到感覺」，知道胸大肌在哪裡、背闊肌怎麼用，之後做自由重量才有意義。</p>
 <p>自由重量（啞鈴、槓鈴）則需要穩定肌群同時作用，更接近真實生活的動作模式，長期來說功能性更強，也能練到更多輔助肌群。</p>
 <p>2023 年的一篇系統性回顧指出，所有阻力訓練形式（機械、自由、彈力帶、自重）對初學者的肌力增長效果差異不顯著，但機械式器材的受傷風險較低（<em>Chinese Journal of Sports Medicine</em>, 2023）。所以初期，安全優先。</p>
@@ -532,7 +523,7 @@ export const newPosts: BlogPost[] = [
 <p>硬舉學的是「髖鉸鏈」動作——從髖部往後推，而不是彎腰。這個動作模式在生活裡用到非常多，比如彎腰撿東西。新手要特別注意背部不能圓弧，先從輕重量、短行程開始。</p>
 <h3 id="3-臥推bench-press——胸部基礎">3. 臥推（Bench Press）——胸部基礎</h3>
 <p>主要訓練：胸大肌、三頭肌、前三角肌</p>
-<p>新手版本：蝴蝶機夾胸、啞鈴臥推</p>
+<p>新手版本：蝴蝶機夾胸、啞鈴<a href="/blog/bench-press-form-guide">臥推</a></p>
 <p>平躺、雙腳踩穩地板、肩胛骨向後收緊貼在椅背上，這三件事先做到，再談怎麼推。很多新手臥推傷肩，幾乎都是因為肩胛沒有穩定。手肘角度大約 75 度，不要完全打開成 90 度。</p>
 <h3 id="4-划船row——背部厚度">4. 划船（Row）——背部厚度</h3>
 <p>主要訓練：背闊肌、菱形肌、后三角肌、二頭肌</p>
@@ -746,13 +737,6 @@ export const newPosts: BlogPost[] = [
 <li><em>The influence of resistance exercise training prescription variables on skeletal muscle mass, strength, and physical function in healthy adults: An umbrella review, Chinese Journal of Sports Medicine (2023)</em></li>
 <li><em>Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis, PMC (2023)</em></li>
 </ul>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/beginner-workout-guide">健身新手必看：入門訓練完整指南</a></li>
-  <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？</a></li>
-  <li><a href="/blog/personal-trainer-vs-self-training">新手該請教練嗎？</a></li>
-</ul>
     `,
   },  {
     slug: "squat-correct-form-complete-guide",
@@ -789,8 +773,7 @@ export const newPosts: BlogPost[] = [
       { id: "新手階段第-1-8-週動作模式優先", text: "新手階段（第 1-8 週）：動作模式優先", level: 3 },
       { id: "初中階段第-9-24-週力量與肌肉量並行", text: "初中階段（第 9-24 週）：力量與肌肉量並行", level: 3 },
       { id: "常見問題-faq", text: "常見問題 FAQ", level: 2 },
-      { id: "結論從今天開始蹲對比蹲重更重要", text: "結論：從今天開始，蹲對比蹲重更重要", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論從今天開始蹲對比蹲重更重要", text: "結論：從今天開始，蹲對比蹲重更重要", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -916,11 +899,11 @@ export const newPosts: BlogPost[] = [
 <h3 id="2-高腳杯深蹲goblet-squat">2. 高腳杯深蹲（Goblet Squat）</h3>
 <p><strong>適合對象</strong>：新手過渡到有負重深蹲的最佳橋樑</p>
 <p>雙手在胸前抱著一個啞鈴或壺鈴（像捧著一個高腳杯），這個前置重量會自然迫使你的上半身保持直立、蹲得更深，是非常好的教學工具。</p>
-<p>高腳杯深蹲的核心訓練效果也很好，因為你必須靠腹部用力才能維持直立姿勢不讓啞鈴拉走你的重心。</p>
+<p>高腳杯深蹲的<a href="/blog/advanced-core-training-guide">核心訓練</a>效果也很好，因為你必須靠腹部用力才能維持直立姿勢不讓啞鈴拉走你的重心。</p>
 <p>建議重量：剛開始 8-12 公斤的啞鈴，練到可以輕鬆做 3 組 x 15 下之後，再考慮進階到槓鈴。</p>
 <h3 id="3-背蹲back-squat">3. 背蹲（Back Squat）</h3>
 <p><strong>適合對象</strong>：有一定基礎、追求最大力量和肌肉量的訓練者</p>
-<p>槓鈴放在斜方肌上方（高槓）或後三角（低槓），雙手握住槓鈴外側，這是健力和健美訓練中最常見的深蹲形式，也是能扛最大重量的方式。</p>
+<p>槓鈴放在斜方肌上方（高槓）或後三角（低槓），雙手握住槓鈴外側，這是<a href="/blog/powerlifting-beginner-guide">健力</a>和健美訓練中最常見的深蹲形式，也是能扛最大重量的方式。</p>
 <p>高槓位置讓你的上半身更直立，低槓位置讓你可以往前傾更多、動用更多髖部的力量，適合追求最大重量的健力選手。</p>
 <p>剛開始建議從高槓背蹲入門，比較直覺。</p>
 <h3 id="4-前蹲front-squat">4. 前蹲（Front Squat）</h3>
@@ -1040,13 +1023,6 @@ export const newPosts: BlogPost[] = [
 <p><strong>第二，破除迷思，相信研究數據</strong>。膝蓋超過腳尖沒問題、全蹲比半蹲更有效、深蹲對膝蓋的傷害遠比很多人想像的少。用正確的觀念訓練，不要被沒有根據的說法拖累。</p>
 <p><strong>第三，循序漸進，不要急</strong>。深蹲的重量進步需要時間，尤其是技術性的動作。每一次蹲都比上一次更穩、更深、更有控制，這才是正確的進步方式。</p>
 <p>深蹲是一輩子的動作，值得花時間做對。開始吧。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/knee-pain-squat-prevention-guide">膝蓋痛還能深蹲嗎？</a></li>
-  <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
-  <li><a href="/blog/powerlifting-beginner-guide">健力三項入門指南</a></li>
-</ul>
     `,
   },  {
     slug: "intermittent-fasting-guide-science-based",
@@ -1089,8 +1065,7 @@ export const newPosts: BlogPost[] = [
       { id: "迷思-4間歇性斷食可以吃什麼都不限制", text: "迷思 4：「間歇性斷食可以吃什麼都不限制」", level: 3 },
       { id: "迷思-5做有氧要有吃東西才有力空腹有氧沒效果", text: "迷思 5：「做有氧要有吃東西才有力，空腹有氧沒效果」", level: 3 },
       { id: "faq關於間歇性斷食你最想知道的-8-個問題", text: "FAQ：關於間歇性斷食你最想知道的 8 個問題", level: 2 },
-      { id: "結論間歇性斷食是工具不是魔法", text: "結論：間歇性斷食是工具，不是魔法", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論間歇性斷食是工具不是魔法", text: "結論：間歇性斷食是工具，不是魔法", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -1104,9 +1079,9 @@ export const newPosts: BlogPost[] = [
 <blockquote>
 <p><strong>定義框：什麼是間歇性斷食（Intermittent Fasting，IF）？</strong></p>
 <p>></p>
-<p>間歇性斷食是一種以「進食時間窗口」為核心的飲食策略，限制每天或每週允許進食的時間段，而非直接規定吃什麼或吃多少。它不是一種「飲食菜單」，而是一個「進食時間框架」。最常見的形式是 <strong>16:8 斷食</strong>（又稱 168 斷食）：每天禁食 16 小時，在 8 小時內完成所有進食。</p>
+<p>間歇性斷食是一種以「進食時間窗口」為核心的<a href="/blog/muscle-building-diet-guide">飲食</a>策略，限制每天或每週允許進食的時間段，而非直接規定吃什麼或吃多少。它不是一種「飲食菜單」，而是一個「進食時間框架」。最常見的形式是 <strong>16:8 斷食</strong>（又稱 168 斷食）：每天禁食 16 小時，在 8 小時內完成所有進食。</p>
 </blockquote>
-<p>當我剛開始帶學員做體重管理的時候，10 個人裡面有 8 個會主動問我：「教練，我可以試 168 斷食嗎？」這個問題我已經回答了幾百次，每次我的答案都是：「可以，但你要先搞懂它是怎麼運作的，不然你只是餓自己而已。」</p>
+<p>當我剛開始帶學員做<a href="/blog/body-recomposition-guide">體重管理</a>的時候，10 個人裡面有 8 個會主動問我：「教練，我可以試 168 斷食嗎？」這個問題我已經回答了幾百次，每次我的答案都是：「可以，但你要先搞懂它是怎麼運作的，不然你只是餓自己而已。」</p>
 <p>這篇文章我就用教練的角度，整合最新的研究，把間歇性斷食講清楚。不賣你希望，也不嚇你，只說事實。</p>
 <h2 id="什麼是間歇性斷食常見的斷食方式">什麼是間歇性斷食？常見的斷食方式</h2>
 <p>間歇性斷食（Intermittent Fasting，IF）不是一種飲食，而是一種<strong>進食時間模式</strong>。它的核心概念很簡單：設定特定的進食窗口，窗口外禁止攝入熱量。</p>
@@ -1122,7 +1097,7 @@ export const newPosts: BlogPost[] = [
 <h3 id="24-小時斷食eat-stop-eat">24 小時斷食（Eat Stop Eat）</h3>
 <p>一週 1-2 次的 24 小時完全斷食，其餘時間正常進食。適合執行168已經很習慣、想要偶爾更進一步的人。</p>
 <h2 id="間歇性斷食的科學原理">間歇性斷食的科學原理</h2>
-<p>斷食為什麼能減脂？很多人搞錯了原因，以為是什麼神奇的「燃脂開關」，但實際上機制並沒有那麼玄。</p>
+<p>斷食為什麼能<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>？很多人搞錯了原因，以為是什麼神奇的「燃脂開關」，但實際上機制並沒有那麼玄。</p>
 <h3 id="主要機制-1熱量赤字最重要">主要機制 1：熱量赤字（最重要）</h3>
 <p>說穿了，斷食能減重，最直接的原因就是<strong>你少吃了幾餐，總熱量攝取自然下降</strong>。把進食時間壓縮到 8 小時，多數人自然會少吃一餐（通常是早餐），即便沒有刻意控制分量，每天也可能少攝入 200-500 大卡。</p>
 <h3 id="主要機制-2胰島素濃度下降啟動脂肪燃燒">主要機制 2：胰島素濃度下降，啟動脂肪燃燒</h3>
@@ -1306,13 +1281,6 @@ export const newPosts: BlogPost[] = [
 <li><strong>如果有任何不舒服或慢性病，先諮詢醫師</strong></li>
 </ol>
 <p>斷食是手段，健康才是目的。選一個你能長期執行的方式，比追求最「完美」的方法更重要。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
-  <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略</a></li>
-  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
-</ul>
     `,
   },  {
     slug: "post-workout-nutrition-guide",
@@ -1363,8 +1331,7 @@ export const newPosts: BlogPost[] = [
       { id: "q6睡前訓練運動後晚上還要吃東西嗎", text: "Q6：睡前訓練，運動後晚上還要吃東西嗎？", level: 3 },
       { id: "q7喝牛奶可以取代蛋白粉嗎", text: "Q7：喝牛奶可以取代蛋白粉嗎？", level: 3 },
       { id: "q8沒有時間吃正餐最快速的運動後補充是什麼", text: "Q8：沒有時間吃正餐，最快速的運動後補充是什麼？", level: 3 },
-      { id: "結論把每次訓練的價值最大化", text: "結論：把每次訓練的價值最大化", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論把每次訓練的價值最大化", text: "結論：把每次訓練的價值最大化", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -1376,13 +1343,13 @@ export const newPosts: BlogPost[] = [
     content: `
 <blockquote>
 <p><strong>運動後營養補充快速定義</strong></p>
-<p>運動後營養補充（Post-Workout Nutrition）是指訓練結束後，透過攝取適當比例的蛋白質與碳水化合物，修復肌肉損傷、補充肝醣、抑制皮質醇分解，進而促進增肌、加速恢復的飲食策略。核心目標很簡單：<strong>讓你的身體在訓練結束後盡快從「分解狀態」切換回「合成狀態」</strong>。</p>
+<p>運動後營養補充（Post-Workout Nutrition）是指訓練結束後，透過攝取適當比例的蛋白質與碳水化合物，修復肌肉損傷、補充肝醣、抑制皮質醇分解，進而促進<a href="/blog/muscle-building-diet-guide">增肌</a>、加速恢復的飲食策略。核心目標很簡單：<strong>讓你的身體在訓練結束後盡快從「分解狀態」切換回「合成狀態」</strong>。</p>
 </blockquote>
 <p>運動後到底要不要馬上吃東西？要吃多少蛋白質？碳水化合物是救星還是敵人？</p>
 <p>這些問題我在健身房聽過幾百次了。很多人拼命訓練，結果因為運動後飲食搞錯，白白浪費了每次訓練的成效。今天我想用一個教練的角度，把這件事從頭到尾講清楚——不只告訴你「吃什麼」，還要告訴你「為什麼」，而且全部都有研究數據撐腰。</p>
 <h2 id="運動後為什麼要補充營養">運動後為什麼要補充營養？</h2>
 <p>先搞清楚一件事：你的身體在高強度訓練後，其實處於一種「輕微受損」的狀態。</p>
-<p>每次重訓或激烈有氧運動，都會造成：</p>
+<p>每次<a href="/blog/squat-correct-form-complete-guide">重訓</a>或激烈有氧運動，都會造成：</p>
 <ol>
 <li><strong>肌肉微撕裂</strong>——肌纖維受損，這是增肌的必要前提</li>
 <li><strong>肝醣大量耗損</strong>——肌肉的「燃料倉庫」幾乎見底</li>
@@ -1435,7 +1402,7 @@ export const newPosts: BlogPost[] = [
 <li>水煮蛋或蛋白</li>
 </ul>
 <h3 id="碳水化合物不是你的敵人">碳水化合物：不是你的敵人</h3>
-<p>這裡是很多人搞錯的地方。尤其在減脂期的朋友，往往運動後不敢吃碳水——這其實是錯的。</p>
+<p>這裡是很多人搞錯的地方。尤其在<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>期的朋友，往往運動後不敢吃碳水——這其實是錯的。</p>
 <p>碳水化合物運動後的兩大功能：</p>
 <ol>
 <li><strong>快速補充肝醣</strong>，讓身體有能量修復肌肉</li>
@@ -1656,13 +1623,6 @@ export const newPosts: BlogPost[] = [
 </ul>
 <p>記住：<strong>訓練讓你變強的機會，最終由你吃什麼來決定。</strong> 把每次訓練後的 30 分鐘當作投資報酬率最高的時刻，認真對待你的飲食。</p>
 <p>你不需要做到完美，但你需要做到一致。這才是長期進步的關鍵。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/pre-post-workout-nutrition-timing">運動前後怎麼吃？</a></li>
-  <li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
-  <li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
-</ul>
     `,
   },  {
     slug: "body-fat-measurement-methods-comparison",
@@ -1689,8 +1649,7 @@ export const newPosts: BlogPost[] = [
       { id: "女性體脂率對照表", text: "女性體脂率對照表", level: 3 },
       { id: "不要被數字綁架體脂率的正確心態", text: "不要被數字綁架：體脂率的正確心態", level: 2 },
       { id: "faq體脂率測量常見問題", text: "FAQ：體脂率測量常見問題", level: 2 },
-      { id: "結論選對方法、固定條件、追蹤趨勢", text: "結論：選對方法、固定條件、追蹤趨勢", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論選對方法、固定條件、追蹤趨勢", text: "結論：選對方法、固定條件、追蹤趨勢", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -1701,7 +1660,7 @@ export const newPosts: BlogPost[] = [
     },
     content: `
 <blockquote>
-<p><strong>30 秒直接給答案：</strong> 目前最準確的體脂率測量方法是 <strong>DEXA 掃描</strong>（誤差 ±1–2%），是醫療與學術研究的黃金標準。一般健身族群用 <strong>InBody（BIA 生物電阻抗）</strong> 追蹤趨勢已夠用，但必須固定條件才有意義。皮脂夾在專業人員操作下誤差 ±2–4%，CP 值很高。</p>
+<p><strong>30 秒直接給答案：</strong> 目前最準確的<a href="/blog/fitness-fat-loss-complete-guide">體脂</a>率測量方法是 <strong>DEXA 掃描</strong>（誤差 ±1–2%），是醫療與學術研究的黃金標準。一般健身族群用 <strong>InBody（BIA 生物電阻抗）</strong> 追蹤趨勢已夠用，但必須固定條件才有意義。皮脂夾在專業人員操作下誤差 ±2–4%，CP 值很高。</p>
 </blockquote>
 <p>講真的，我帶過很多學員，最常看到的狀況就是——</p>
 <p>早上量一次 InBody：體脂 22%。跑去運動，下午再量一次：體脂 19%。</p>
@@ -1712,7 +1671,7 @@ export const newPosts: BlogPost[] = [
 <blockquote>
 <p><strong>定義框：</strong> 體脂率（Body Fat Percentage）是身體脂肪重量佔總體重的百分比。例如體重 70 公斤、體脂肪 14 公斤，體脂率就是 20%。</p>
 </blockquote>
-<p>很多人去健身房的第一個目標就是「減重」，但問題是，體重計看不出你減掉的是脂肪、水分、還是肌肉。</p>
+<p>很多人去健身房的第一個目標就是「減重」，但問題是，體重計看不出你減掉的是脂肪、水分、還是<a href="/blog/muscle-building-diet-guide">肌肉</a>。</p>
 <p>有一種很常見的狀況叫做「瘦胖子（Skinny Fat）」——體重在正常範圍，BMI 也達標，但肚子上一層脂肪，手臂細得沒有線條。這種人體重看起來沒問題，但體脂率可能高達 28–30%，內臟脂肪也不低。</p>
 <p>反過來，健美選手體重可能 85 公斤、BMI 顯示過重，但體脂率只有 8%，全身是肌肉。</p>
 <p><strong>體重欺騙你，體脂率說實話。</strong></p>
@@ -1973,7 +1932,7 @@ export const newPosts: BlogPost[] = [
 <p><strong>Q6：女生體脂率多少算標準？</strong></p>
 <p>根據台灣衛福部與 ACE 標準，女性體脂率：運動員 14–20%、健身體態 21–24%、一般健康 25–31%、超過 32% 屬於肥胖。女性因荷爾蒙功能需要，體脂率不能無限往下降，低於 14% 可能影響月經與生育功能。</p>
 <p><strong>Q7：體脂率和 BMI 哪個更準確？</strong></p>
-<p>體脂率比 BMI 更能反映身體組成的真實狀況。BMI 只看體重和身高，無法區分脂肪和肌肉。例如一個 80 公斤的健美選手 BMI 可能顯示「過重」，但體脂率只有 10%。台灣衛福部也建議同時參考 BMI 和體脂率來評估健康。</p>
+<p>體脂率比 BMI 更能反映<a href="/blog/body-recomposition-guide">身體組成</a>的真實狀況。BMI 只看體重和身高，無法區分脂肪和肌肉。例如一個 80 公斤的健美選手 BMI 可能顯示「過重」，但體脂率只有 10%。台灣衛福部也建議同時參考 BMI 和體脂率來評估健康。</p>
 <p><strong>Q8：體脂率多低才會不健康？</strong></p>
 <p>人體維持基本生理功能需要一定量的「必要體脂」：男性最低約 3–5%，女性最低約 10–13%。低於這個範圍會影響荷爾蒙分泌、免疫功能、體溫調節。女性體脂率低於 17% 可能出現月經不規律，低於 14% 風險更大。</p>
 <h2 id="結論選對方法、固定條件、追蹤趨勢">結論：選對方法、固定條件、追蹤趨勢</h2>
@@ -1983,13 +1942,6 @@ export const newPosts: BlogPost[] = [
 <p><strong>第三：</strong> 如果你有固定的健身教練，可以請他幫你做皮脂夾測量，CP 值高、準確度也不輸 InBody，關鍵是要同一個人量。</p>
 <p>體脂率是一個工具，幫你了解自己的身體組成。不是用來讓你焦慮的數字，更不是決定你有沒有「練好」的唯一標準。</p>
 <p>把條件標準化，把時間拉長，趨勢對了，方向就對了。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/fitness-fat-loss-complete-guide">健身減脂完整指南</a></li>
-  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
-  <li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
-</ul>
     `,
   },  {
     slug: "office-worker-exercise-plan",
@@ -2034,8 +1986,7 @@ export const newPosts: BlogPost[] = [
       { id: "q6下班後已經很累還要運動嗎", text: "Q6：下班後已經很累，還要運動嗎？", level: 3 },
       { id: "q7腰痠背痛的人適合做什麼運動", text: "Q7：腰痠背痛的人適合做什麼運動？", level: 3 },
       { id: "q8早起運動和下班後運動哪個效果比較好", text: "Q8：早起運動和下班後運動哪個效果比較好？", level: 3 },
-      { id: "結論開始才是最難也最重要的那一步", text: "結論：開始，才是最難也最重要的那一步", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論開始才是最難也最重要的那一步", text: "結論：開始，才是最難也最重要的那一步", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -2092,7 +2043,7 @@ export const newPosts: BlogPost[] = [
 <h3 id="障礙三不知道要練什麼怕白費力氣">障礙三：「不知道要練什麼，怕白費力氣」</h3>
 <p>很多人會在健身房繞了一圈，隨便做幾台機器，然後覺得有練到就走了。</p>
 <p><strong>解法：有結構的課表 + 複合動作優先</strong></p>
-<p>與其練一堆孤立動作，不如把時間集中在「大複合動作」上：深蹲、硬舉、伏地挺身、划船、肩推。這五個動作涵蓋全身所有肌群，效率最高。</p>
+<p>與其練一堆孤立動作，不如把時間集中在「大複合動作」上：<a href="/blog/squat-correct-form-complete-guide">深蹲</a>、硬舉、伏地挺身、划船、肩推。這五個動作涵蓋全身所有肌群，效率最高。</p>
 <p>後面我會直接給你一份可以馬上套用的週課表。</p>
 <h2 id="一週只有-3-小時最高效的訓練安排">一週只有 3 小時？最高效的訓練安排</h2>
 <p>先說一個好消息：研究確認，一週訓練每個肌群<strong>至少 2 次</strong>，就足以獲得最大的肌肥大效果。頻率再高，在訓練量相等的情況下，效果差異並不顯著（PubMed, 2016）。</p>
@@ -2130,7 +2081,7 @@ export const newPosts: BlogPost[] = [
 </tr>
 </tbody></table>
 <h3 id="hiit-還是穩態有氧">HIIT 還是穩態有氧？</h3>
-<p>如果目標是減脂，而且時間有限，<strong>HIIT 更划算</strong>。</p>
+<p>如果目標是<a href="/blog/fitness-fat-loss-complete-guide">減脂</a>，而且時間有限，<strong>HIIT 更划算</strong>。</p>
 <p>研究顯示，20 分鐘的 HIIT 消耗的熱量，相當於 40 分鐘的穩態有氧（慢跑）。一篇 2024 年發表於《國際醫學研究期刊》的研究也指出，HIIT 特別適合時間有限的工作族群，在心肺提升和脂肪燃燒上都有優勢。</p>
 <p>但要注意：<strong>剛開始運動的人不建議直接上 HIIT</strong>，因為強度過高容易受傷或讓你對運動產生反感。先從快走、騎車、游泳等中強度有氧入門，等體能底子打穩了再說。</p>
 <h3 id="每週安排的邏輯">每週安排的邏輯</h3>
@@ -2170,7 +2121,7 @@ export const newPosts: BlogPost[] = [
 <tr>
 <td>棒式</td>
 <td>3 × 30 秒</td>
-<td>核心收緊，不要憋氣</td>
+<td><a href="/blog/advanced-core-training-guide">核心</a>收緊，不要憋氣</td>
 </tr>
 <tr>
 <td>死蟲式</td>
@@ -2463,13 +2414,6 @@ export const newPosts: BlogPost[] = [
 <p>然後明天多做 5 次。</p>
 <p>久坐是每天累積的傷害，運動也是每天累積的修復。沒有什麼捷徑，但也沒有你想像的那麼難。</p>
 <p>時間有限，但夠用。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/home-dumbbell-workout-guide">居家啞鈴訓練全攻略</a></li>
-  <li><a href="/blog/fat-loss-eating-out-guide">減脂外食攻略</a></li>
-  <li><a href="/blog/fitness-motivation-habit-science">健身沒動力怎麼辦？</a></li>
-</ul>
     `,
   },  {
     slug: "women-weight-training-myths",
@@ -2515,8 +2459,7 @@ export const newPosts: BlogPost[] = [
       { id: "迷思-6重訓會讓肩膀變寬", text: "迷思 6：「重訓會讓肩膀變寬」", level: 3 },
       { id: "迷思-7女生不需要那麼重的重量", text: "迷思 7：「女生不需要那麼重的重量」", level: 3 },
       { id: "faq女生重訓常見問題", text: "FAQ：女生重訓常見問題", level: 2 },
-      { id: "結論不要讓一個錯誤的迷思讓你錯過最好的投資", text: "結論：不要讓一個錯誤的迷思讓你錯過最好的投資", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論不要讓一個錯誤的迷思讓你錯過最好的投資", text: "結論：不要讓一個錯誤的迷思讓你錯過最好的投資", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -2556,7 +2499,7 @@ export const newPosts: BlogPost[] = [
 <h2 id="女生重訓的-5-大好處研究數據">女生重訓的 5 大好處（研究數據）</h2>
 <h3 id="1-增肌減脂改變體態組成">1. 增肌減脂，改變體態組成</h3>
 <p>剛才說的 meta-analysis（126 項研究、4,019 名受試者）清楚顯示，重訓對女性體脂率和肌肉量的改善效果顯著，而且不限年齡、不限停經前後。</p>
-<p>簡單說：重訓是目前最有科學證據支持的「改變體態」方法，沒有之一。</p>
+<p>簡單說：重訓是目前最有科學證據支持的「改變<a href="/blog/body-recomposition-guide">體態</a>」方法，沒有之一。</p>
 <h3 id="2-骨質密度提升預防骨質疏鬆">2. 骨質密度提升，預防骨質疏鬆</h3>
 <p>女性 35 歲後骨質開始流失，停經後更是加速。台灣女性骨質疏鬆症盛行率是男性的 2-3 倍，這是個很現實的健康威脅。</p>
 <p>NIH（美國國立衛生研究院）的研究顯示，阻力訓練讓肌肉收縮對骨骼產生機械刺激，能直接促進骨骼形成。一項 12 個月的重訓計劃讓腰椎和股骨頸骨密度提升 1.0-1.1%——聽起來數字不大，但長期累積就是骨折風險的關鍵差距。</p>
@@ -2574,7 +2517,7 @@ export const newPosts: BlogPost[] = [
 <h3 id="新手基本原則">新手基本原則</h3>
 <p>先別急著衝健身房。重訓最重要的基礎是<strong>動作模式</strong>，而不是重量。以下是我給新手的三個核心原則：</p>
 <p><strong>原則 1：先學動作，再加重量</strong></p>
-<p>蹲、推、拉、鉸鏈（髖屈伸）是所有重訓動作的基礎。深蹲、伏地挺身、硬舉這些動作用自身體重練熟之後，再拿啞鈴或槓鈴。</p>
+<p>蹲、推、拉、鉸鏈（髖屈伸）是所有重訓動作的基礎。<a href="/blog/squat-correct-form-complete-guide">深蹲</a>、伏地挺身、<a href="/blog/deadlift-complete-guide">硬舉</a>這些動作用自身體重練熟之後，再拿啞鈴或槓鈴。</p>
 <p><strong>原則 2：漸進式超負荷</strong></p>
 <p>每週慢慢增加重量或次數，這是肌肉持續生長的關鍵。不需要每次都把自己操到死，穩定地讓身體有新的挑戰就夠了。</p>
 <p><strong>原則 3：休息日一樣重要</strong></p>
@@ -2677,7 +2620,7 @@ export const newPosts: BlogPost[] = [
 <td>—</td>
 </tr>
 <tr>
-<td>啞鈴飛鳥（臥推架）</td>
+<td>啞鈴飛鳥（<a href="/blog/bench-press-form-guide">臥推</a>架）</td>
 <td>3</td>
 <td>12</td>
 <td>—</td>
@@ -2832,13 +2775,6 @@ export const newPosts: BlogPost[] = [
 <li>相信過程，給它 12 週</li>
 </ol>
 <p>12 週後你會看到一個不一樣的自己——不是變壯的那種，是更好的那種。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
-  <li><a href="/blog/body-recomposition-guide">增肌減脂可以同時嗎？</a></li>
-  <li><a href="/blog/pregnancy-weight-training-safety">孕期可以重訓嗎？</a></li>
-</ul>
     `,
   },  {
     slug: "muscle-soreness-training-effectiveness-truth",
@@ -2873,8 +2809,7 @@ export const newPosts: BlogPost[] = [
       { id: "中等至嚴重痠痛建議先恢復", text: "中等至嚴重痠痛：建議先恢復", level: 3 },
       { id: "不破不立是錯的", text: "「不破不立」是錯的", level: 3 },
       { id: "faq關於肌肉痠痛的-8-個常見問題", text: "FAQ：關於肌肉痠痛的 8 個常見問題", level: 2 },
-      { id: "結論把注意力從痠不痠轉移到進步沒有", text: "結論：把注意力從「痠不痠」轉移到「進步沒有」", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論把注意力從痠不痠轉移到進步沒有", text: "結論：把注意力從「痠不痠」轉移到「進步沒有」", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -2888,7 +2823,7 @@ export const newPosts: BlogPost[] = [
 <blockquote>
 <p><strong>定義框：什麼是 DOMS？</strong></p>
 <p>></p>
-<p>DOMS（Delayed Onset Muscle Soreness，延遲性肌肉痠痛）是運動後 24–72 小時出現的肌肉痠痛感，通常持續 2–5 天，高峰期約在運動後第 2–3 天。主要由<strong>離心收縮</strong>（肌肉在拉長狀態下出力，如深蹲下降、跑步下坡）所引發，造成肌纖維微小損傷並觸發發炎反應。舊說法認為是乳酸堆積造成的，但這個說法早已被現代研究推翻。</p>
+<p>DOMS（Delayed Onset Muscle Soreness，延遲性肌肉痠痛）是運動後 24–72 小時出現的肌肉痠痛感，通常持續 2–5 天，高峰期約在運動後第 2–3 天。主要由<strong>離心收縮</strong>（肌肉在拉長狀態下出力，如<a href="/blog/squat-correct-form-complete-guide">深蹲</a>下降、跑步下坡）所引發，造成肌纖維微小損傷並觸發發炎反應。舊說法認為是乳酸堆積造成的，但這個說法早已被現代研究推翻。</p>
 </blockquote>
 <h2 id="肌肉痠痛是什麼doms-的科學解釋">肌肉痠痛是什麼？DOMS 的科學解釋</h2>
 <p>我帶學員十幾年了，被問最多的問題就是這個：「教練，我今天沒什麼感覺耶，是不是沒練到？」或是反過來：「我腿現在超痠，代表我練得很好對不對？」</p>
@@ -2945,7 +2880,7 @@ export const newPosts: BlogPost[] = [
 <li><strong>動作熟練度提升</strong>：技術變好了，肌肉運用更精準，廢功減少，DOMS 自然降低。</li>
 <li><strong>特定肌群天生不容易痠</strong>：如前面提到的肩膀，或是小腿等長期承重的肌群。</li>
 <li><strong>以向心收縮為主的訓練</strong>：純向心收縮（如腿推機只做推上去不控制放下來）造成的 DOMS 會比離心明顯少很多。</li>
-<li><strong>訓練後的恢復做得很好</strong>：睡眠充足、蛋白質攝取夠、有做主動恢復，DOMS 自然不嚴重。</li>
+<li><strong>訓練後的恢復做得很好</strong>：<a href="/blog/sleep-muscle-growth-guide">睡眠</a>充足、蛋白質攝取夠、有做主動恢復，DOMS 自然不嚴重。</li>
 </ul>
 <h2 id="什麼才是訓練有效的真正指標">什麼才是訓練有效的真正指標？</h2>
 <p>好，那如果不能靠痠不痠來判斷，到底要怎麼知道自己有沒有在進步？</p>
@@ -2979,7 +2914,7 @@ export const newPosts: BlogPost[] = [
 <p>偶爾遇到特別嚴重的 DOMS 是正常的，尤其是剛開始健身、嘗試新動作，或是長時間休息後重新訓練。這個時候的重點是加速恢復，不是硬撐。</p>
 <p>以下 5 個策略都有研究支撐，不是我隨便說的。</p>
 <h3 id="策略一按摩最有效">策略一：按摩（最有效）</h3>
-<p>根據 2018 年的大型系統性回顧（meta-analysis），<strong>按摩是目前所有 DOMS 恢復手段中，有最強證據支持效果的方法</strong>。</p>
+<p>根據 2018 年的大型系統性回顧（meta-analysis），<strong><a href="/blog/sports-massage-myofascial-release-guide">按摩</a>是目前所有 DOMS 恢復手段中，有最強證據支持效果的方法</strong>。</p>
 <p>訓練後 2 小時內的按摩效果最佳，可以顯著降低運動後 72–96 小時內的痠痛感。機制包括促進血液循環、加速代謝廢物排出、降低肌筋膜張力。</p>
 <p>如果沒有專業按摩師，用泡棉滾筒（foam roller）自我筋膜放鬆也有一定效果，只是效果比徒手按摩稍弱。</p>
 <h3 id="策略二主動恢復active-recovery">策略二：主動恢復（Active Recovery）</h3>
@@ -3072,13 +3007,6 @@ export const newPosts: BlogPost[] = [
 <li><em>2024 Meta-analysis: Acute sleep deprivation and athletic performance.</em></li>
 <li><em>2018 Meta-analysis: Massage as recovery technique for DOMS and perceived fatigue.</em></li>
 </ol>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/sleep-muscle-growth-guide">睡眠與肌肉生長</a></li>
-  <li><a href="/blog/sports-massage-myofascial-release-guide">運動按摩是什麼？</a></li>
-  <li><a href="/blog/beginner-weight-training-guide">新手重訓入門指南</a></li>
-</ul>
     `,
   },  {
     slug: "high-protein-kidney-myth",
@@ -3119,8 +3047,7 @@ export const newPosts: BlogPost[] = [
       { id: "q6蛋白質吃多了會骨質疏鬆嗎", text: "Q6：蛋白質吃多了會骨質疏鬆嗎？", level: 3 },
       { id: "q7哪些人絕對不能吃高蛋白", text: "Q7：哪些人絕對不能吃高蛋白？", level: 3 },
       { id: "q8健身吃高蛋白前要做什麼檢查", text: "Q8：健身吃高蛋白前要做什麼檢查？", level: 3 },
-      { id: "結論放心吃但先確認你的起點", text: "結論：放心吃，但先確認你的起點", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 }
+      { id: "結論放心吃但先確認你的起點", text: "結論：放心吃，但先確認你的起點", level: 2 }
     ],
     cta: {
       headline: "想要更專業的指導？",
@@ -3160,7 +3087,7 @@ export const newPosts: BlogPost[] = [
 <h3 id="omniheart-試驗的直接測量">OmniHeart 試驗的直接測量</h3>
 <p>OmniHeart 試驗是一個隨機對照試驗，直接比較三種飲食模式對腎功能的影響。高蛋白飲食組（蛋白質佔總熱量 25%）在追蹤期間，腎功能指標和低蛋白飲食組<strong>沒有顯著差異</strong>。</p>
 <h3 id="連-34-g/kg-都有人測過">連 3.4 g/kg 都有人測過</h3>
-<p>2015 年有一篇研究（發表於 PMC），讓受試者攝取高達 <strong>3.4 g/kg/天</strong> 的蛋白質，持續進行重量訓練。追蹤結果：體脂下降、肌肉增加，腎功能？<strong>沒有任何異常。</strong></p>
+<p>2015 年有一篇研究（發表於 PMC），讓受試者攝取高達 <strong>3.4 g/kg/天</strong> 的蛋白質，持續進行<a href="/blog/squat-correct-form-complete-guide">重量訓練</a>。追蹤結果：體脂下降、肌肉增加，腎功能？<strong>沒有任何異常。</strong></p>
 <p>3.4 g/kg 已經幾乎是一般健身建議量的兩倍，連這個量的研究都沒有發現問題，代表健康成人的腎臟在正常訓練範圍內確實有足夠的緩衝空間。</p>
 <h2 id="哪些人真的需要注意蛋白質攝取">哪些人真的需要注意蛋白質攝取？</h2>
 <p>前面說的全部都有一個前提：「健康成人」。如果你已經有腎臟問題，情況完全不一樣。</p>
@@ -3180,7 +3107,7 @@ export const newPosts: BlogPost[] = [
 <p>ISSN 的官方立場非常清楚：<strong>「1.4–2.0 g/kg/天對有在訓練的運動員不只是安全的，而且可能改善訓練適應。在均衡飲食的前提下，這個攝取量對腎功能和骨骼代謝都不會造成傷害。」</strong></p>
 <p>ISSN 也直接點名：「媒體長期錯誤報導高蛋白飲食有害，這兩個擔憂都缺乏實質證據。」</p>
 <h3 id="morton-統合分析的肌肉增長甜蜜點">Morton 統合分析的肌肉增長甜蜜點</h3>
-<p>2018 年的 Morton 統合分析（業界常被引用的大型研究）給出了增肌的蛋白質劑量反應曲線：</p>
+<p>2018 年的 Morton 統合分析（業界常被引用的大型研究）給出了<a href="/blog/muscle-building-diet-guide">增肌</a>的蛋白質劑量反應曲線：</p>
 <ul>
 <li><strong>每天 1.6 g/kg</strong> 是大多數人肌肉增長的有效門檻</li>
 <li><strong>2.2 g/kg</strong> 是「安全上緩衝」的推薦上限，確保不因攝取不足而限制增肌</li>
@@ -3204,7 +3131,7 @@ export const newPosts: BlogPost[] = [
 <td>1.6–2.2 g/kg</td>
 </tr>
 <tr>
-<td>減脂期（保肌需求高）</td>
+<td><a href="/blog/fitness-fat-loss-complete-guide">減脂</a>期（保肌需求高）</td>
 <td>2.0–2.4 g/kg</td>
 </tr>
 <tr>
@@ -3301,13 +3228,6 @@ export const newPosts: BlogPost[] = [
 <li><strong>如果有任何已知的慢性疾病（腎病、糖尿病、高血壓），請先諮詢醫師</strong>，不要自行決定攝取量。</li>
 </ol>
 <p>傷腎的不是蛋白質，是不了解自己身體狀況就亂吃。搞清楚自己的基準值，訓練才能走得長遠。</p>
-
-<h2 id="further-reading">延伸閱讀</h2>
-<ul>
-  <li><a href="/blog/muscle-building-diet-guide">增肌飲食怎麼吃？</a></li>
-  <li><a href="/blog/nutrition-basics">健身飲食基礎</a></li>
-  <li><a href="/blog/post-workout-nutrition-guide">運動後吃什麼？</a></li>
-</ul>
     `,
   }
 ];

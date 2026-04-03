@@ -32,7 +32,6 @@ export const batchB: BlogPost[] = [
       { id: "accessory-movements", text: "輔助訓練動作推薦", level: 2 },
       { id: "training-plan", text: "新手 4 週入門計畫", level: 2 },
       { id: "find-a-coach", text: "為什麼你需要一個教練", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想學舉重但怕受傷？讓專業教練帶你安全入門",
@@ -47,7 +46,7 @@ export const batchB: BlogPost[] = [
 
       <h2 id="weightlifting-not-scary">舉重沒有你想的那麼可怕</h2>
       <p>先破除一個迷思：奧林匹克舉重的受傷率其實比你想像的低很多。根據運動醫學期刊的數據，舉重的受傷率大約是每 1000 小時訓練 2.4-3.3 次傷害，這個數字比足球、籃球甚至跑步都來得低。關鍵在於——你有沒有用對方法。</p>
-      <p>舉重訓練不是只有選手才能做。它能訓練到爆發力、協調性、活動度、核心穩定，這些能力不管你是打球、攀岩、還是單純想讓身體更強壯，都用得到。</p>
+      <p>舉重訓練不是只有選手才能做。它能訓練到<a href="/blog/explosive-power-training-guide">爆發力</a>、協調性、活動度、核心穩定，這些能力不管你是打球、攀岩、還是單純想讓身體更強壯，都用得到。</p>
       <p>我自己在帶學員學舉重的時候，前幾堂課甚至不會碰到槓鈴。用 PVC 管或木棍把動作軌跡練熟了，再慢慢加重量。沒有人第一天就要抓 60 公斤，放心。</p>
 
       <h2 id="snatch-vs-clean-jerk">抓舉和挺舉到底差在哪？</h2>
@@ -72,7 +71,7 @@ export const batchB: BlogPost[] = [
       <p>這邊最常見的錯誤是「用髖撞槓」——很多人會把槓鈴往前甩出去，而不是往上送。槓鈴應該是貼著身體往上走的，不是畫一個大弧線。</p>
 
       <h3 id="snatch-catch">接槓與站起</h3>
-      <p>二拉之後要快速把身體拉到槓鈴下方，在深蹲的位置接住槓鈴。這需要很好的肩膀活動度和過頭蹲的穩定性。</p>
+      <p>二拉之後要快速把身體拉到槓鈴下方，在<a href="/blog/squat-correct-form-complete-guide">深蹲</a>的位置接住槓鈴。這需要很好的肩膀活動度和過頭蹲的穩定性。</p>
       <p>接槓的瞬間，手臂要鎖死在頭頂，核心收緊。初學者常見的問題是接槓時手肘會彎曲，或是身體前傾接不穩，這些都需要時間慢慢練。</p>
       <p>接穩之後從深蹲的位置站起來，槓鈴穩穩地在頭頂——恭喜你，完成一次抓舉。</p>
 
@@ -103,7 +102,7 @@ export const batchB: BlogPost[] = [
       <ul>
         <li><strong>過頭深蹲（Overhead Squat）</strong>：用 PVC 管或空槓做過頭深蹲，如果蹲不下去或蹲下去槓會往前掉，表示肩膀或腳踝活動度需要加強。</li>
         <li><strong>前蹲舉（Front Squat）</strong>：挺舉需要穩定的前蹲能力。如果連基本的前蹲都做不好，上搏的接槓就會很困難。</li>
-        <li><strong>硬舉（Deadlift）</strong>：舉重的一拉跟硬舉的動作模式很像。至少要能做出標準的硬舉，才有辦法在舉重動作中維持正確的背部位置。</li>
+        <li><strong>硬舉（Deadlift）</strong>：舉重的一拉跟<a href="/blog/deadlift-complete-guide">硬舉</a>的動作模式很像。至少要能做出標準的硬舉，才有辦法在舉重動作中維持正確的背部位置。</li>
         <li><strong>肩膀活動度</strong>：抓舉對肩膀活動度的要求很高。如果雙手舉到頭頂的時候沒辦法完全伸直，或是會明顯拱腰來代償，就需要先處理活動度。</li>
       </ul>
       <p>如果以上能力還不夠，也不用沮喪。花個 4-8 週專心練基礎，同時用 PVC 管練動作軌跡，效率其實更好。</p>
@@ -158,13 +157,6 @@ export const batchB: BlogPost[] = [
       <p>一個有經驗的教練可以在旁邊即時看出你的問題，馬上給你修正的提示語。有時候就是一句「二拉晚一點」或「手肘翻快一點」就能讓你突然開竅。</p>
       <p>而且舉重的技術偏差是會累積的。錯誤的動作模式一旦養成習慣，要改掉比重新學還難。一開始就找教練把動作建立好，長遠來看反而省時間。</p>
       <p>如果你對舉重有興趣，但不確定自己現在的能力適不適合，歡迎先來聊聊。評估一下現在的活動度和基礎肌力，我再幫你規劃適合的進入方式。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/explosive-power-training-guide">爆發力訓練完整指南</a></li>
-        <li><a href="/blog/deadlift-complete-guide">硬舉完整教學</a></li>
-        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？</a></li>
-      </ul>
     `,
   },
   {
@@ -196,7 +188,6 @@ export const batchB: BlogPost[] = [
       { id: "nsca-guidelines", text: "NSCA 的訓練量建議", level: 3 },
       { id: "eight-week-plan", text: "8 週爆發力訓練計畫", level: 2 },
       { id: "common-mistakes-power", text: "爆發力訓練最容易踩的坑", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想讓運動表現突破瓶頸？",
@@ -207,7 +198,7 @@ export const batchB: BlogPost[] = [
       variant: "line",
     },
     content: `
-      <p>你有沒有遇過這種情況：深蹲已經蹲到體重的 1.5 倍了，但打球的時候彈跳力好像沒什麼進步？或是跑步衝刺的速度一直卡在那邊上不去？這很可能不是你的肌力不夠，而是你缺少專門的爆發力訓練。</p>
+      <p>你有沒有遇過這種情況：<a href="/blog/squat-correct-form-complete-guide">深蹲</a>已經蹲到體重的 1.5 倍了，但打球的時候彈跳力好像沒什麼進步？或是跑步衝刺的速度一直卡在那邊上不去？這很可能不是你的肌力不夠，而是你缺少專門的爆發力訓練。</p>
 
       <h2 id="what-is-power">爆發力到底是什麼？跟肌力有什麼不同？</h2>
       <p>很多人把「力量大」跟「爆發力強」搞混了，但這兩件事差很多。</p>
@@ -234,7 +225,7 @@ export const batchB: BlogPost[] = [
         <li><strong>牽張反射</strong>：肌肉裡的感受器（肌梭）在偵測到快速拉長時，會反射性地啟動更多肌纖維來收縮。等於是身體幫你多招募了一些肌肉來出力。</li>
       </ol>
       <p>你可以自己實驗：先蹲到底停住 3 秒再跳，然後快速蹲下馬上跳。第二種一定跳比較高。這就是 SSC 在作用。</p>
-      <p>幾乎所有爆發力訓練的核心概念都圍繞在怎麼善用 SSC。跳躍、投擲、舉重的二拉，本質上都是在利用這個機制。</p>
+      <p>幾乎所有爆發力訓練的核心概念都圍繞在怎麼善用 SSC。跳躍、投擲、<a href="/blog/olympic-weightlifting-beginner-guide">舉重</a>的二拉，本質上都是在利用這個機制。</p>
 
       <h2 id="plyometric-training">增強式訓練（Plyometrics）：爆發力的基本功</h2>
       <p>增強式訓練就是專門練 SSC 的訓練方法。最經典的就是各種跳躍動作。重點不是跳多高或多遠，而是<strong>地面接觸時間要短</strong>——下去要快、起來也要快。</p>
@@ -345,13 +336,6 @@ export const batchB: BlogPost[] = [
         <li><strong>只練單一方向</strong>：大部分人只練前後和上下方向的爆發力（跳、蹲），忽略了側向和旋轉的爆發力。這在很多運動中都很重要。</li>
       </ul>
       <p>爆發力訓練是讓你從「有力氣」升級到「又快又有力」的關鍵。但它比一般的肌力訓練更講究動作品質和訓練規劃。如果你不確定自己目前的能力適合什麼程度的爆發力訓練，找個教練評估一下是最有效率的做法。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/olympic-weightlifting-beginner-guide">奧林匹克舉重入門</a></li>
-        <li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
-        <li><a href="/blog/periodization-training-guide">週期化訓練課表怎麼排？</a></li>
-      </ul>
     `,
   },
   {
@@ -383,7 +367,6 @@ export const batchB: BlogPost[] = [
       { id: "anti-rotation-exercises", text: "抗旋轉進階動作", level: 2 },
       { id: "integrated-core", text: "整合型核心動作：讓核心真的派上用場", level: 2 },
       { id: "core-in-training", text: "怎麼把核心訓練安排進課表", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "核心練了半天還是沒感覺？",
@@ -489,7 +472,7 @@ export const batchB: BlogPost[] = [
         </li>
         <li>
           <strong>單手盪壺（Single-Arm Kettlebell Swing）</strong>
-          <p>雙手盪壺的進階版本。單手拿壺鈴做擺盪，壺鈴的離心力和不對稱負重會不斷挑戰你的抗旋轉能力。也是很好的爆發力 + 核心穩定的整合訓練。</p>
+          <p>雙手盪壺的進階版本。單手拿壺鈴做擺盪，壺鈴的離心力和不對稱負重會不斷挑戰你的抗旋轉能力。也是很好的<a href="/blog/explosive-power-training-guide">爆發力</a> + 核心穩定的整合訓練。</p>
         </li>
         <li>
           <strong>Bird Dog 划船（Bird Dog Row）</strong>
@@ -502,7 +485,7 @@ export const batchB: BlogPost[] = [
       <p>幾個很好的整合型核心訓練：</p>
       <ul>
         <li><strong>Turkish Get-Up（土耳其起立）</strong>：從躺在地上到站起來的過程中，核心的四個面向全部都會用到。動作慢慢做，每一個位置停 2 秒，感覺核心怎麼在穩定你的身體。</li>
-        <li><strong>單腳硬舉（Single-Leg Deadlift）</strong>：練的時候如果骨盆會歪掉或身體會旋轉，代表核心穩定性還不夠。用輕重量慢慢做，專注在骨盆保持水平。</li>
+        <li><strong>單腳<a href="/blog/deadlift-complete-guide">硬舉</a>（Single-Leg Deadlift）</strong>：練的時候如果骨盆會歪掉或身體會旋轉，代表核心穩定性還不夠。用輕重量慢慢做，專注在骨盆保持水平。</li>
         <li><strong>過頭蹲（Overhead Squat）</strong>：對整個核心的抗伸展和脊椎穩定性要求非常高。如果槓會往前掉，通常不只是肩膀活動度的問題，核心抗伸展能力也是關鍵。</li>
         <li><strong>單臂過頭行走（Single-Arm Overhead Walk）</strong>：結合抗側彎、抗旋轉和肩膀穩定的走路訓練。看起來最簡單，做起來最累。</li>
       </ul>
@@ -511,18 +494,11 @@ export const batchB: BlogPost[] = [
       <p>最後聊一下怎麼把這些動作安排進你的訓練。我的建議是：</p>
       <ul>
         <li><strong>暖身階段</strong>：放 1-2 個難度適中的核心動作當作啟動。例如 Dead Bug 2×8 或 Pallof Press 2×10。目的是喚醒核心，為接下來的訓練做準備。</li>
-        <li><strong>主訓練穿插</strong>：在大重量動作的組間休息，穿插一個核心動作。例如深蹲組間做 Suitcase Carry。這樣不浪費時間，也能增加訓練量。</li>
+        <li><strong>主訓練穿插</strong>：在大重量動作的組間休息，穿插一個核心動作。例如<a href="/blog/squat-correct-form-complete-guide">深蹲</a>組間做 Suitcase Carry。這樣不浪費時間，也能增加訓練量。</li>
         <li><strong>訓練收尾</strong>：放 2-3 個核心動作做結尾，涵蓋不同面向。例如健腹輪 3×8 + 側棒式划船 3×6/邊 + 半跪姿 Pallof Press 3×8/邊。</li>
       </ul>
       <p>每週確保四個面向都有練到。不需要每次都練全部，可以分散在不同天。重點是長期下來每個面向都有足夠的刺激。</p>
       <p>核心訓練的精髓不在於把肚子練得多酸，而在於讓核心在你需要它的時候穩穩地幫你做事——不管是扛大重量、打球跑步、還是彎腰抱小孩。如果你不確定自己的核心哪裡比較弱，也歡迎來找我做個評估，我們再一起把弱環補起來。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/squat-correct-form-complete-guide">深蹲做對了嗎？</a></li>
-        <li><a href="/blog/explosive-power-training-guide">爆發力訓練完整指南</a></li>
-        <li><a href="/blog/bouldering-beginner-guide-for-gym-goers">攀岩抱石入門指南</a></li>
-      </ul>
     `,
   },
   {
@@ -557,7 +533,6 @@ export const batchB: BlogPost[] = [
       { id: "phase-four", text: "第四階段：產後 6 個月以上", level: 3 },
       { id: "warning-signs", text: "需要暫停運動的警訊", level: 2 },
       { id: "mindset-shift", text: "給產後媽媽的心裡話", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "想安全地恢復產前的體能？",
@@ -613,7 +588,7 @@ export const batchB: BlogPost[] = [
       <ul>
         <li><strong>快速收縮</strong>：快速收緊再快速放鬆，1 秒一次，連續 10 次。訓練骨盆底肌的快速反應（例如突然打噴嚏）。</li>
         <li><strong>配合呼吸</strong>：吐氣時收縮骨盆底肌，吸氣時放鬆。這個呼吸配合的模式在之後做重量訓練時非常重要。</li>
-        <li><strong>功能性整合</strong>：在深蹲、橋式等動作中主動啟動骨盆底肌。例如橋式推起來的時候同時收緊骨盆底肌。</li>
+        <li><strong>功能性整合</strong>：在<a href="/blog/squat-correct-form-complete-guide">深蹲</a>、橋式等動作中主動啟動骨盆底肌。例如橋式推起來的時候同時收緊骨盆底肌。</li>
       </ul>
       <p>如果你試了幾週都感覺不到骨盆底肌在收縮，或是有明顯的漏尿/下墜感症狀，建議找婦科物理治療師做專業評估。有些情況需要一對一的徒手治療介入。</p>
 
@@ -675,7 +650,7 @@ export const batchB: BlogPost[] = [
       <ul>
         <li>開始使用槓鈴/啞鈴做基本動作（深蹲、硬舉、臥推、划船）</li>
         <li>漸進式增加重量，但每次加重前確認沒有漏尿或腹直肌鼓起的現象</li>
-        <li>核心訓練進階到棒式、手提箱走路等</li>
+        <li><a href="/blog/advanced-core-training-guide">核心訓練</a>進階到棒式、手提箱走路等</li>
         <li>可以開始低衝擊的有氧（快走、飛輪、游泳）</li>
         <li>重量選擇以 RPE 6-7 為原則，不要衝太重</li>
       </ul>
@@ -713,13 +688,6 @@ export const batchB: BlogPost[] = [
         <li>尋求專業協助——不管是物理治療師還是有孕產專業認證的教練</li>
       </ul>
       <p>你已經做了最辛苦的事了。恢復這件事，我們可以慢慢來。如果你在產後恢復過程中有任何不確定的地方，歡迎來聊聊，我可以幫你評估目前的狀態，設計適合你現階段的訓練方案。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/pregnancy-weight-training-safety">孕期可以重訓嗎？</a></li>
-        <li><a href="/blog/prenatal-exercise-guide">孕期運動安全指南</a></li>
-        <li><a href="/blog/advanced-core-training-guide">核心訓練不只是棒式</a></li>
-      </ul>
     `,
   },
   {
@@ -751,7 +719,6 @@ export const batchB: BlogPost[] = [
       { id: "absolute-contraindications", text: "絕對禁忌：這些狀況不能運動", level: 2 },
       { id: "stop-signs", text: "運動中出現這些症狀請立刻停止", level: 2 },
       { id: "real-talk", text: "寫給正在猶豫的孕媽咪", level: 2 },
-      { id: "further-reading", text: "延伸閱讀", level: 2 },
     ],
     cta: {
       headline: "懷孕中想繼續訓練但不確定安不安全？",
@@ -788,7 +755,7 @@ export const batchB: BlogPost[] = [
         <li><strong>改善孕期不適</strong>：減少腰痛、改善便秘、降低水腫。很多學員跟我說，有訓練的那幾天腰比較不痛。</li>
         <li><strong>縮短產程</strong>：多項研究顯示有運動的孕婦，產程時間較短。</li>
         <li><strong>改善心理健康</strong>：降低孕期憂鬱和焦慮的風險。訓練能給你一段「做自己」的時間。</li>
-        <li><strong>更好的產後恢復</strong>：孕期維持肌力的人，產後恢復速度更快。</li>
+        <li><strong>更好的產後恢復</strong>：孕期維持肌力的人，<a href="/blog/postpartum-recovery-training-guide">產後恢復</a>速度更快。</li>
         <li><strong>維持健康的體重增長</strong>：不是控制體重，是維持「該增加的增加，不多增加沒必要的」。</li>
       </ul>
 
@@ -813,7 +780,7 @@ export const batchB: BlogPost[] = [
         <li><strong>不需要大幅降低重量</strong>，但建議把 RPE 控制在 7 以下，不要做到力竭。</li>
         <li><strong>孕吐嚴重的日子</strong>，不要逞強。可以改做輕度的活動或直接休息。</li>
         <li><strong>體溫控制</strong>：避免過熱。在通風良好的環境訓練，充分補水。不要做熱瑜珈。</li>
-        <li><strong>開始建立骨盆底肌啟動的習慣</strong>——在深蹲和硬舉等動作中練習配合呼吸啟動骨盆底肌。</li>
+        <li><strong>開始建立骨盆底肌啟動的習慣</strong>——在<a href="/blog/squat-correct-form-complete-guide">深蹲</a>和硬舉等動作中練習配合呼吸啟動骨盆底肌。</li>
         <li>很多人在第一孕期還沒告訴別人懷孕，在團課的環境裡可能不好意思修改動作。如果是一對一教學就沒這個問題。</li>
       </ul>
 
@@ -911,13 +878,6 @@ export const batchB: BlogPost[] = [
       <p>當然，「適度」兩個字很重要。你不是在準備比賽，你是在為分娩和育兒儲備體能。訓練的目的是讓你在孕期過得更舒服、分娩更順利、產後恢復更快。</p>
       <p>每次有孕媽咪來找我上課，我做的第一件事一定是請她帶產檢資料來，確認醫師沒有特別的運動禁忌。安全永遠是第一位。在確認安全的基礎上，我會根據你的孕期階段、運動經驗和身體狀況，設計你專屬的訓練方案。</p>
       <p>你的身體正在做一件很了不起的事。好好照顧它，它也會好好照顧你和寶寶。如果你有任何關於孕期訓練的疑問，隨時歡迎來聊。</p>
-
-      <h2 id="further-reading">延伸閱讀</h2>
-      <ul>
-        <li><a href="/blog/postpartum-recovery-training-guide">產後恢復訓練完整指南</a></li>
-        <li><a href="/blog/prenatal-exercise-guide">孕期運動安全指南</a></li>
-        <li><a href="/blog/women-weight-training-myths">女生重訓會變金剛芭比嗎？</a></li>
-      </ul>
     `,
   },
 ];
