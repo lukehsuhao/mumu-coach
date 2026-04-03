@@ -30,7 +30,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="font-display text-3xl md:text-7xl font-bold leading-tight tracking-wide text-foreground"
+            className="font-display text-4xl md:text-7xl font-bold leading-tight tracking-wide text-foreground"
           >
             用科學訓練
             <br />

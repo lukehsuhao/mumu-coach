@@ -64,7 +64,7 @@ export function GET() {
     "",
     "## 訓練地點",
     "",
-    "- Fitness Hub：台北市松山區南京東路四段130號 B1",
+    "- Fitness Hub：台北市松山區南京東路四段130號 B1（Google Maps: https://maps.app.goo.gl/pqsfagWokeWkRxd49）",
     "",
     "## 聯絡方式",
     "",

@@ -36,7 +36,7 @@ export default function BlogCtaSection({ cta }: { cta: BlogCta }) {
         <div className="text-center">
           <p className="font-display font-bold text-lg">牧牧教練</p>
           <p className="text-sm text-muted">ACE-CPT 認證教練</p>
-          <p className="text-xs text-muted/70 mt-0.5">📍 台北市松山區南京東路四段130號 B1・Fitness Hub</p>
+          <p className="text-xs text-muted/70 mt-0.5">📍 台北市松山區南京東路四段130號 B1・Fitness Hub <a href="https://maps.app.goo.gl/pqsfagWokeWkRxd49" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">開啟地圖</a></p>
         </div>
       </div>
 

@@ -46,6 +46,7 @@ export default function Contact() {
           </p>
           <p className="mt-3 text-sm text-foreground/70">
             📍 台北市松山區南京東路四段130號 B1・Fitness Hub
+            <a href="https://maps.app.goo.gl/pqsfagWokeWkRxd49" target="_blank" rel="noopener noreferrer" className="text-primary ml-1.5 hover:underline">開啟地圖 →</a>
           </p>
         </motion.div>
 

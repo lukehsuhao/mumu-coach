@@ -508,7 +508,7 @@ export function getAllSlugs(): string[] {
   return posts.map((p) => p.slug);
 }
 
-export const POSTS_PER_PAGE = 20;
+export const POSTS_PER_PAGE = 12;
 
 export function getPaginatedPosts(page: number): {
   posts: BlogPost[];

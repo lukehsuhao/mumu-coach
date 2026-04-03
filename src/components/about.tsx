@@ -49,7 +49,10 @@ export default function About() {
             </p>
             <p className="flex items-start gap-2 text-foreground/90 font-medium">
               <span className="text-primary mt-0.5">📍</span>
-              <span>台北市松山區南京東路四段130號 B1・Fitness Hub</span>
+              <span>
+                台北市松山區南京東路四段130號 B1・Fitness Hub
+                <a href="https://maps.app.goo.gl/pqsfagWokeWkRxd49" target="_blank" rel="noopener noreferrer" className="text-primary text-sm ml-1.5 hover:underline">開啟地圖 →</a>
+              </span>
             </p>
           </div>
 
