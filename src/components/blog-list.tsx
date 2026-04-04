@@ -19,7 +19,7 @@ export default function BlogList({
             部落格
           </h1>
           <p className="text-muted text-lg">
-            健身知識、訓練技巧、飲食建議，都在這裡。
+            健身知識、訓練技巧，都在這裡。
           </p>
         </div>
         <Link
@@ -59,15 +59,7 @@ export default function BlogList({
                 {post.description}
               </p>
 
-              <div className="mt-4 flex items-center gap-4 text-sm text-muted">
-                <time>
-                  {new Date(post.date).toLocaleDateString("zh-TW", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </time>
-                <span>·</span>
+              <div className="mt-4 text-sm text-muted">
                 <span>{post.readTime}</span>
               </div>
             </article>

@@ -61,14 +61,6 @@ export default async function BlogPostPage({
               </h1>
 
               <div className="mt-4 flex items-center gap-4 text-sm text-muted">
-                <time>
-                  {new Date(post.date).toLocaleDateString("zh-TW", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </time>
-                <span>·</span>
                 <span>{post.readTime}</span>
               </div>
 

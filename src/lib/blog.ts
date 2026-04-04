@@ -24,8 +24,21 @@ export interface BlogPost {
   cta: BlogCta;
 }
 
-// Sample posts — replace with real content later
-const posts: BlogPost[] = [
+// Articles to exclude (diet/nutrition content + duplicates)
+const excludeSlugs = new Set([
+  "nutrition-basics",
+  "muscle-building-diet-guide",
+  "intermittent-fasting-guide-science-based",
+  "post-workout-nutrition-guide",
+  "fat-loss-eating-out-guide",
+  "pre-post-workout-nutrition-timing",
+  "body-recomposition-guide",
+  "high-protein-kidney-myth",
+  "fitness-fat-loss-complete-guide",
+  "beginner-workout-guide",
+]);
+
+const allRawPosts: BlogPost[] = [
   ...newPosts,
   ...batchA,
   ...batchB,
@@ -477,6 +490,8 @@ const posts: BlogPost[] = [
     `,
   },
 ];
+
+const posts = allRawPosts.filter((p) => !excludeSlugs.has(p.slug));
 
 export function getAllPosts(): BlogPost[] {
   return posts.sort(

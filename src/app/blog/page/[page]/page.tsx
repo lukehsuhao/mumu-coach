@@ -20,7 +20,7 @@ export async function generateMetadata({
   const { page } = await params;
   return {
     title: `部落格 第 ${page} 頁 | 牧牧教練 Mumu Coach`,
-    description: "健身知識、孕婦運動指南、飲食建議，牧牧教練的專業分享。",
+    description: "健身知識、孕婦運動指南，牧牧教練的專業分享。",
   };
 }
 

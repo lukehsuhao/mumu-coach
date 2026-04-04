@@ -7,7 +7,8 @@ const plans = [
   {
     name: "體驗課",
     subtitle: "單堂體驗",
-    price: "體驗價",
+    originalPrice: "NT$ 2,700",
+    price: "NT$ 1,500",
     description: "適合第一次接觸的你",
     features: [
       "90 分鐘完整課程",
@@ -41,7 +42,6 @@ const plans = [
     features: [
       "每堂 60 分鐘",
       "進階訓練計畫",
-      "完整飲食規劃",
       "每月體態評估",
       "LINE 隨時諮詢",
       "優先預約時段",
@@ -94,7 +94,10 @@ export default function Pricing() {
               <div className="text-center mb-6">
                 <h3 className="font-display text-2xl font-bold">{plan.name}</h3>
                 <p className="text-sm text-muted mt-1">{plan.subtitle}</p>
-                <p className="font-display text-4xl font-bold text-primary mt-4">
+                {plan.originalPrice && (
+                  <p className="text-sm text-muted mt-4 line-through">{plan.originalPrice}</p>
+                )}
+                <p className={`font-display text-4xl font-bold text-primary ${plan.originalPrice ? "mt-1" : "mt-4"}`}>
                   {plan.price}
                 </p>
                 <p className="text-sm text-muted mt-2">{plan.description}</p>

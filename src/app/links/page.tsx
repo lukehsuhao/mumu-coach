@@ -52,7 +52,7 @@ const mainLinks = [
   {
     icon: "blog",
     title: "健身部落格",
-    description: "訓練知識、飲食建議",
+    description: "訓練知識分享",
     href: "/blog",
   },
   {
