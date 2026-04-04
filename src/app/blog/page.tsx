@@ -5,7 +5,7 @@ import BlogList from "@/components/blog-list";
 
 export const metadata = {
   title: "部落格 | 牧牧教練 Mumu Coach",
-  description: "健身知識、孕婦運動指南，牧牧教練的專業分享。",
+  description: "健身知識、孕婦運動指南、訓練技巧，牧牧教練的專業分享。",
 };
 
 export default function BlogPage() {
