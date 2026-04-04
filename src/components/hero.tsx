@@ -10,14 +10,14 @@ export default function Hero() {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-background to-amber-50" />
 
-      {/* Decorative shapes */}
+      {/* Decorative shapes — radial gradient for max browser compat */}
       <div
-        className="absolute top-20 right-10 w-[28rem] h-[28rem] bg-primary/[0.03] rounded-full"
-        style={{ filter: "blur(80px)", WebkitFilter: "blur(80px)" }}
+        className="absolute top-0 right-0 w-[36rem] h-[36rem] rounded-full pointer-events-none"
+        style={{ background: "radial-gradient(circle, rgba(249,115,22,0.06) 0%, transparent 70%)" }}
       />
       <div
-        className="absolute bottom-20 left-10 w-[32rem] h-[32rem] bg-secondary/[0.03] rounded-full"
-        style={{ filter: "blur(80px)", WebkitFilter: "blur(80px)" }}
+        className="absolute bottom-0 left-0 w-[40rem] h-[40rem] rounded-full pointer-events-none"
+        style={{ background: "radial-gradient(circle, rgba(251,146,60,0.05) 0%, transparent 70%)" }}
       />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">

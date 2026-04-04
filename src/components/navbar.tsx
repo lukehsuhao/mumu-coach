@@ -18,8 +18,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-6xl">
-      <div className="bg-white/80 backdrop-blur-md rounded-2xl shadow-lg border border-border px-6 py-3 flex items-center justify-between">
+    <nav className="fixed top-4 left-0 right-0 z-50 mx-auto px-4" style={{ maxWidth: "72rem" }}>
+      <div className="bg-white rounded-2xl shadow-lg border border-border px-6 py-3 flex items-center justify-between">
         <a href="/" className="font-display text-2xl font-bold text-foreground tracking-wide">
           MUMU<span className="text-primary">COACH</span>
         </a>
@@ -70,7 +70,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden mt-2 bg-white/95 backdrop-blur-md rounded-2xl shadow-lg border border-border p-4"
+            className="md:hidden mt-2 bg-white rounded-2xl shadow-lg border border-border p-4"
           >
             {navLinks.map((link) => (
               <a
