@@ -17,10 +17,10 @@ export default function About() {
         >
           <div className="rounded-3xl overflow-hidden shadow-lg">
             <Image
-              src="/coach-lifestyle.jpg"
-              alt="牧牧教練生活照"
-              width={4553}
-              height={6375}
+              src="/coach-training.jpg"
+              alt="牧牧教練訓練照"
+              width={1600}
+              height={2240}
               className="w-full h-auto"
             />
           </div>
