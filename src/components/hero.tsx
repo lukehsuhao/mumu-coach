@@ -84,10 +84,10 @@ export default function Hero() {
         >
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/coach-lifestyle.jpg"
+              src="/coach-hero.jpg"
               alt="牧牧教練形象照"
               width={1600}
-              height={2240}
+              height={1340}
               className="w-full h-auto"
               priority
             />
