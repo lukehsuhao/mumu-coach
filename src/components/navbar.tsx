@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-4 left-0 right-0 z-50 mx-auto px-4" style={{ maxWidth: "72rem" }}>
-      <div className="bg-white rounded-2xl shadow-lg border border-border px-6 py-3 flex items-center justify-between">
+      <div className="rounded-2xl shadow-lg border border-border px-6 py-3 flex items-center justify-between" style={{ backgroundColor: "rgba(255,255,255,0.75)", backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)" }}>
         <a href="/" className="font-display text-2xl font-bold text-foreground tracking-wide">
           MUMU<span className="text-primary">COACH</span>
         </a>
