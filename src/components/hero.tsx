@@ -11,8 +11,14 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-background to-amber-50" />
 
       {/* Decorative shapes */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-secondary/5 rounded-full blur-3xl" />
+      <div
+        className="absolute top-20 right-10 w-[28rem] h-[28rem] bg-primary/[0.03] rounded-full"
+        style={{ filter: "blur(80px)", WebkitFilter: "blur(80px)" }}
+      />
+      <div
+        className="absolute bottom-20 left-10 w-[32rem] h-[32rem] bg-secondary/[0.03] rounded-full"
+        style={{ filter: "blur(80px)", WebkitFilter: "blur(80px)" }}
+      />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* Text */}
