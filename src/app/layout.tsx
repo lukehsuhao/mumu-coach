@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   description:
     "專業健身教練牧牧，提供一對一私人健身訓練、孕婦健身指導、小班團體課程。為你量身打造的健身旅程，從這裡開始。",
   keywords: ["私人教練", "一對一健身", "孕婦健身", "健身團體課", "牧牧教練"],
+  verification: {
+    google: "wIyXrfUtNq0Cnxvc6IRh60FAFwoEPp80pj4Jq-U869Q",
+  },
   openGraph: {
     title: "牧牧教練 Mumu Coach",
     description: "專業 · 溫暖 · 為你量身打造的健身旅程",
